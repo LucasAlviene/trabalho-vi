@@ -1,0 +1,147 @@
+{
+    "uuid_user": "",
+    "simulation": {
+        "start": 1714689187,
+        "end": 1714689294
+    },
+    "tutorial": {
+        "start": 1714689189,
+        "end": 1714689200
+    },
+    "stations": [
+        {
+            "start": 1714689224,
+            "end": 1714689262,
+            "rating": [
+                {
+                    "name": "Anamnese",
+                    "checks": [
+                        {
+                            "uuid": "",
+                            "name": "Tem alergia a algum medicamento?",
+                            "value": 1.0,
+                            "time": 0
+                        },
+                        {
+                            "uuid": "",
+                            "name": "Teve contato com alguém doente?",
+                            "value": 0.0,
+                            "time": 0
+                        },
+                        {
+                            "uuid": "",
+                            "name": "Está com falta de ar?",
+                            "value": 0.10000000149011612,
+                            "time": 0
+                        },
+                        {
+                            "uuid": "",
+                            "name": "Está aceitando liquído?",
+                            "value": 0.10000000149011612,
+                            "time": 0
+                        },
+                        {
+                            "uuid": "",
+                            "name": "O calendário vacinal em dia?",
+                            "value": 0.10000000149011612,
+                            "time": 0
+                        },
+                        {
+                            "uuid": "",
+                            "name": "Você deu algum medicamento para febre? A temperatura diminuiu?",
+                            "value": 1.0,
+                            "time": 0
+                        },
+                        {
+                            "uuid": "",
+                            "name": "Teve diarréia?",
+                            "value": 0.10000000149011612,
+                            "time": 0
+                        },
+                        {
+                            "uuid": "",
+                            "name": "Há quanto tempo está com febre?",
+                            "value": 1.0,
+                            "time": 0
+                        },
+                        {
+                            "uuid": "",
+                            "name": "Até que temperatura a febre chegou?",
+                            "value": 1.0,
+                            "time": 0
+                        },
+                        {
+                            "uuid": "",
+                            "name": "Está com dor no ouvido?",
+                            "value": 0.20000000298023225,
+                            "time": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "Exames",
+                    "checks": []
+                },
+                {
+                    "name": "Diagnóstico",
+                    "checks": []
+                },
+                {
+                    "name": "Tratamento",
+                    "checks": []
+                }
+            ]
+        },
+        {
+            "start": 1714689272,
+            "end": 1714689281,
+            "rating": [
+                {
+                    "name": "Anamnese",
+                    "checks": []
+                },
+                {
+                    "name": "Exames",
+                    "checks": []
+                },
+                {
+                    "name": "Diagnóstico",
+                    "checks": []
+                },
+                {
+                    "name": "Tratamento",
+                    "checks": []
+                }
+            ]
+        },
+        {
+            "start": 1714689285,
+            "end": 1714689294,
+            "rating": [
+                {
+                    "name": "Anamnese",
+                    "checks": [
+                        {
+                            "uuid": "",
+                            "name": "Tem alguma coisa que ajude aliviar a sua dor?",
+                            "value": 1.0,
+                            "time": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "Exames",
+                    "checks": []
+                },
+                {
+                    "name": "Diagnóstico",
+                    "checks": []
+                },
+                {
+                    "name": "Tratamento",
+                    "checks": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4383 @@
+[
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722431370,
+            "end": 1722431455
+        },
+        "tutorial": {
+            "start": 1722431370,
+            "end": 1722431376
+        },
+        "stations": [
+            {
+                "start": 1722431387,
+                "end": 1722431410,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": []
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": []
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "56c8c8de-2be9-4c63-86be-fc0f71cf7c0e",
+                                "name": "Otite",
+                                "value": 0,
+                                "time": 1722431407
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "57610fbf-39e2-4362-9eb8-728a50608e4d",
+                                "name": "Ibuprofeno",
+                                "value": 0,
+                                "time": 1722431409
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "start": 1722431419,
+                "end": 1722431455,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "8ee09e97-26df-4649-a2da-bafb74bca2aa",
+                                "name": "Onde doi?",
+                                "value": 0.5,
+                                "time": 1722431427
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1722431443
+                            },
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1722431447
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": []
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722433237,
+            "end": 1722434639
+        },
+        "tutorial": {
+            "start": 1722433238,
+            "end": 1722433523
+        },
+        "stations": [
+            {
+                "start": 1722433574,
+                "end": 1722434174,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "0cfd9bb7-020e-4924-9629-0cca558ba1b2",
+                                "name": "O calendário vacinal em dia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722433690
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 1,
+                                "time": 1722433701
+                            },
+                            {
+                                "uuid": "aa62303f-39e7-4f8a-b5e8-580f7568e44a",
+                                "name": "Há quanto tempo está com febre?",
+                                "value": 1,
+                                "time": 1722433710
+                            },
+                            {
+                                "uuid": "ada0abc4-bab1-415a-ad8e-8ee552b47b50",
+                                "name": "Está com falta de ar?",
+                                "value": 0.10000000149011612,
+                                "time": 1722433723
+                            },
+                            {
+                                "uuid": "ac5d4e2a-ef26-4768-989a-c80308fa4a99",
+                                "name": "Tem algum sinal de meningismo?",
+                                "value": 0.20000000298023224,
+                                "time": 1722433775
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "8030d0e2-bd18-434c-af1c-9374a3604a53",
+                                "name": "Otoscopia",
+                                "value": 1,
+                                "time": 1722433820
+                            },
+                            {
+                                "uuid": "6679bd99-0ccd-4e0e-a8d9-e4572fac9fb1",
+                                "name": "Ausculta Pulmonar",
+                                "value": 0,
+                                "time": 1722433862
+                            },
+                            {
+                                "uuid": "82de1612-f89f-4c31-a886-4b423e9f2b23",
+                                "name": "Oroscopia",
+                                "value": 1,
+                                "time": 1722433907
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "ec7a72b4-993e-4698-81f3-3cc3f4822734",
+                                "name": "Amigdalite Viral",
+                                "value": 0,
+                                "time": 1722434172
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": []
+                    }
+                ]
+            },
+            {
+                "start": 1722434244,
+                "end": 1722434639,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "8ec608fa-499d-4498-a740-52a774ece092",
+                                "name": "Chegou ter febre medida no termômetro?",
+                                "value": 0.25,
+                                "time": 1722434296
+                            },
+                            {
+                                "uuid": "b1e486f5-512e-45cb-8771-d2af92d2fc0f",
+                                "name": "Essa dor vai para algum lugar? Irradia?",
+                                "value": 0.5,
+                                "time": 1722434302
+                            },
+                            {
+                                "uuid": "051ca466-c0fc-42eb-8355-01378c096f53",
+                                "name": "Tem alguma coisa que piore a sua dor?",
+                                "value": 0.25,
+                                "time": 1722434316
+                            },
+                            {
+                                "uuid": "ead06b95-61e2-471a-a726-cefb2e72071a",
+                                "name": "Teve alteração na urina?",
+                                "value": 0.25,
+                                "time": 1722434322
+                            },
+                            {
+                                "uuid": "628fd2d4-892e-48c3-b1e6-ea82f54b1a31",
+                                "name": "Como é essa dor? O tipo de dor...",
+                                "value": 0.5,
+                                "time": 1722434333
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "2800f135-0a07-42d5-b323-9e02e1195886",
+                                "name": "Sinal de Murphy",
+                                "value": 0.5,
+                                "time": 1722434367
+                            },
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1722434494
+                            },
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1722434512
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "51d4d125-985f-4046-8ffc-e415eb35d17b",
+                                "name": "Calculose da vesícula biliar com colicistite aguda",
+                                "value": 2,
+                                "time": 1722434599
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "2e8027ad-f4ec-4cab-8428-85cdaf0b8359",
+                                "name": "Internação e Cirurgia",
+                                "value": 1,
+                                "time": 1722434637
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722445431,
+            "end": 1722446896
+        },
+        "tutorial": {
+            "start": 1722445432,
+            "end": 1722445764
+        },
+        "stations": [
+            {
+                "start": 1722445895,
+                "end": 1722446311,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "4d52f242-5968-43b8-be8c-bd40c89486ad",
+                                "name": "Está com dor no ouvido?",
+                                "value": 0.20000000298023224,
+                                "time": 1722445975
+                            },
+                            {
+                                "uuid": "06f66e11-1d63-4b4e-9e92-113463f2062f",
+                                "name": "Você deu algum medicamento para febre? A temperatura diminuiu?",
+                                "value": 1,
+                                "time": 1722445982
+                            },
+                            {
+                                "uuid": "aa62303f-39e7-4f8a-b5e8-580f7568e44a",
+                                "name": "Há quanto tempo está com febre?",
+                                "value": 1,
+                                "time": 1722445988
+                            },
+                            {
+                                "uuid": "0cfd9bb7-020e-4924-9629-0cca558ba1b2",
+                                "name": "O calendário vacinal em dia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722446001
+                            },
+                            {
+                                "uuid": "5bf983d3-807d-4aef-a47f-1e2d1dd0724f",
+                                "name": "Teve contato com alguém doente?",
+                                "value": 0,
+                                "time": 1722446008
+                            },
+                            {
+                                "uuid": "ada0abc4-bab1-415a-ad8e-8ee552b47b50",
+                                "name": "Está com falta de ar?",
+                                "value": 0.10000000149011612,
+                                "time": 1722446020
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 1,
+                                "time": 1722446028
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 1,
+                                "time": 1722446037
+                            },
+                            {
+                                "uuid": "b6edd938-2fc5-4894-9098-2f6505f0dea5",
+                                "name": "Teve diarréia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722446041
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "82de1612-f89f-4c31-a886-4b423e9f2b23",
+                                "name": "Oroscopia",
+                                "value": 1,
+                                "time": 1722446109
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "56c8c8de-2be9-4c63-86be-fc0f71cf7c0e",
+                                "name": "Otite",
+                                "value": 0,
+                                "time": 1722446270
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "cfa61d8c-aab2-4d53-a309-94a64499b3d9",
+                                "name": "Amoxicilina",
+                                "value": 1,
+                                "time": 1722446294
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "start": 1722446398,
+                "end": 1722446896,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "f14b24a1-1ebd-4e95-a087-8fd47d26c0a2",
+                                "name": "Faz uso de alguma medicação de uso contínuo?",
+                                "value": 0.25,
+                                "time": 1722446458
+                            },
+                            {
+                                "uuid": "5b7c8646-2492-43be-9802-76fed1f078ed",
+                                "name": "A apetite está bom?",
+                                "value": 0.5,
+                                "time": 1722446461
+                            },
+                            {
+                                "uuid": "05b9246b-76f9-4b99-bee9-0cb928a85e6a",
+                                "name": "Tem alguma coisa que ajude aliviar a sua dor?",
+                                "value": 0.25,
+                                "time": 1722446467
+                            },
+                            {
+                                "uuid": "ed8a48fa-87fd-457e-9b0a-ef0a8390cb77",
+                                "name": "Teve alteração nas fezes?",
+                                "value": 0.25,
+                                "time": 1722446472
+                            },
+                            {
+                                "uuid": "c1f7ac34-561e-408f-af49-0a28865641e6",
+                                "name": "De 0 a 10 o quanto está doendo.",
+                                "value": 0.5,
+                                "time": 1722446484
+                            },
+                            {
+                                "uuid": "628fd2d4-892e-48c3-b1e6-ea82f54b1a31",
+                                "name": "Como é essa dor? O tipo de dor...",
+                                "value": 0.5,
+                                "time": 1722446490
+                            },
+                            {
+                                "uuid": "b1e486f5-512e-45cb-8771-d2af92d2fc0f",
+                                "name": "Essa dor vai para algum lugar? Irradia?",
+                                "value": 0.5,
+                                "time": 1722446495
+                            },
+                            {
+                                "uuid": "ead06b95-61e2-471a-a726-cefb2e72071a",
+                                "name": "Teve alteração na urina?",
+                                "value": 0.25,
+                                "time": 1722446500
+                            },
+                            {
+                                "uuid": "74a24e97-a2b6-445a-9041-8115fd695d0f",
+                                "name": "Percebeu alguma alteração na cor da pele?",
+                                "value": 0.25,
+                                "time": 1722446507
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 0.25,
+                                "time": 1722446514
+                            },
+                            {
+                                "uuid": "051ca466-c0fc-42eb-8355-01378c096f53",
+                                "name": "Tem alguma coisa que piore a sua dor?",
+                                "value": 0.25,
+                                "time": 1722446518
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 0.25,
+                                "time": 1722446530
+                            },
+                            {
+                                "uuid": "61538ef8-5cf3-4cee-accb-f69269c2bfe9",
+                                "name": "Já teve essa dor antes?",
+                                "value": 0.5,
+                                "time": 1722446541
+                            },
+                            {
+                                "uuid": "8ec608fa-499d-4498-a740-52a774ece092",
+                                "name": "Chegou ter febre medida no termômetro?",
+                                "value": 0.25,
+                                "time": 1722446563
+                            },
+                            {
+                                "uuid": "8ee09e97-26df-4649-a2da-bafb74bca2aa",
+                                "name": "Onde doi?",
+                                "value": 0.5,
+                                "time": 1722446577
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "2800f135-0a07-42d5-b323-9e02e1195886",
+                                "name": "Sinal de Murphy",
+                                "value": 0.5,
+                                "time": 1722446671
+                            },
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ultrassonografia",
+                                "value": 1,
+                                "time": 1722446808
+                            },
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Sangue: Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1722446814
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "51d4d125-985f-4046-8ffc-e415eb35d17b",
+                                "name": "Calculose da vesícula biliar com colicistite aguda",
+                                "value": 2,
+                                "time": 1722446857
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "9b7106a9-71cb-45e0-8a34-364a6ba5270d",
+                                "name": "Cirurgia Videolaparoscópica",
+                                "value": 0.10000000149011612,
+                                "time": 1722446894
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722450300,
+            "end": 1722451349
+        },
+        "tutorial": {
+            "start": 1722450301,
+            "end": 1722450302
+        },
+        "stations": [
+            {
+                "start": 1722450366,
+                "end": 1722450777,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "5b31fede-a044-49fb-a1c7-253c534a61e4",
+                                "name": "Pra que time ele torce?",
+                                "value": 0,
+                                "time": 1722450419
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 1,
+                                "time": 1722450438
+                            },
+                            {
+                                "uuid": "b6edd938-2fc5-4894-9098-2f6505f0dea5",
+                                "name": "Teve diarréia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722450444
+                            },
+                            {
+                                "uuid": "ada0abc4-bab1-415a-ad8e-8ee552b47b50",
+                                "name": "Está com falta de ar?",
+                                "value": 0.10000000149011612,
+                                "time": 1722450449
+                            },
+                            {
+                                "uuid": "18a52b60-8361-46c2-ba03-7fc42c901f9f",
+                                "name": "Está aceitando liquído?",
+                                "value": 0.10000000149011612,
+                                "time": 1722450457
+                            },
+                            {
+                                "uuid": "5bf983d3-807d-4aef-a47f-1e2d1dd0724f",
+                                "name": "Teve contato com alguém doente?",
+                                "value": 0,
+                                "time": 1722450463
+                            },
+                            {
+                                "uuid": "aa62303f-39e7-4f8a-b5e8-580f7568e44a",
+                                "name": "Há quanto tempo está com febre?",
+                                "value": 1,
+                                "time": 1722450469
+                            },
+                            {
+                                "uuid": "06f66e11-1d63-4b4e-9e92-113463f2062f",
+                                "name": "Você deu algum medicamento para febre? A temperatura diminuiu?",
+                                "value": 1,
+                                "time": 1722450475
+                            },
+                            {
+                                "uuid": "4d52f242-5968-43b8-be8c-bd40c89486ad",
+                                "name": "Está com dor no ouvido?",
+                                "value": 0.20000000298023224,
+                                "time": 1722450484
+                            },
+                            {
+                                "uuid": "ac5d4e2a-ef26-4768-989a-c80308fa4a99",
+                                "name": "Tem algum sinal de meningismo?",
+                                "value": 0.20000000298023224,
+                                "time": 1722450490
+                            },
+                            {
+                                "uuid": "0cfd9bb7-020e-4924-9629-0cca558ba1b2",
+                                "name": "O calendário vacinal em dia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722450495
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 1,
+                                "time": 1722450500
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "82de1612-f89f-4c31-a886-4b423e9f2b23",
+                                "name": "Oroscopia",
+                                "value": 1,
+                                "time": 1722450578
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "9af8aed4-28ae-4492-bfda-bd891da26451",
+                                "name": "Amigdalite Bacteriana",
+                                "value": 1,
+                                "time": 1722450757
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "67b50c9a-1680-4dff-bf67-edafbd71ccff",
+                                "name": "Amoxicilina + Clavulanato",
+                                "value": 0,
+                                "time": 1722450775
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "start": 1722450845,
+                "end": 1722451349,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "051ca466-c0fc-42eb-8355-01378c096f53",
+                                "name": "Tem alguma coisa que piore a sua dor?",
+                                "value": 0.25,
+                                "time": 1722450871
+                            },
+                            {
+                                "uuid": "74a24e97-a2b6-445a-9041-8115fd695d0f",
+                                "name": "Percebeu alguma alteração na cor da pele?",
+                                "value": 0.25,
+                                "time": 1722450877
+                            },
+                            {
+                                "uuid": "f14b24a1-1ebd-4e95-a087-8fd47d26c0a2",
+                                "name": "Faz uso de alguma medicação de uso contínuo?",
+                                "value": 0.25,
+                                "time": 1722450886
+                            },
+                            {
+                                "uuid": "05b9246b-76f9-4b99-bee9-0cb928a85e6a",
+                                "name": "Tem alguma coisa que ajude aliviar a sua dor?",
+                                "value": 0.25,
+                                "time": 1722450896
+                            },
+                            {
+                                "uuid": "b1e486f5-512e-45cb-8771-d2af92d2fc0f",
+                                "name": "Essa dor vai para algum lugar? Irradia?",
+                                "value": 0.5,
+                                "time": 1722450905
+                            },
+                            {
+                                "uuid": "8ee09e97-26df-4649-a2da-bafb74bca2aa",
+                                "name": "Onde doi?",
+                                "value": 0.5,
+                                "time": 1722450910
+                            },
+                            {
+                                "uuid": "ead06b95-61e2-471a-a726-cefb2e72071a",
+                                "name": "Teve alteração na urina?",
+                                "value": 0.25,
+                                "time": 1722450915
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 0.25,
+                                "time": 1722450922
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 0.25,
+                                "time": 1722450928
+                            },
+                            {
+                                "uuid": "ed8a48fa-87fd-457e-9b0a-ef0a8390cb77",
+                                "name": "Teve alteração nas fezes?",
+                                "value": 0.25,
+                                "time": 1722450933
+                            },
+                            {
+                                "uuid": "61538ef8-5cf3-4cee-accb-f69269c2bfe9",
+                                "name": "Já teve essa dor antes?",
+                                "value": 0.5,
+                                "time": 1722450938
+                            },
+                            {
+                                "uuid": "8ec608fa-499d-4498-a740-52a774ece092",
+                                "name": "Chegou ter febre medida no termômetro?",
+                                "value": 0.25,
+                                "time": 1722450946
+                            },
+                            {
+                                "uuid": "628fd2d4-892e-48c3-b1e6-ea82f54b1a31",
+                                "name": "Como é essa dor? O tipo de dor...",
+                                "value": 0.5,
+                                "time": 1722450953
+                            },
+                            {
+                                "uuid": "5b7c8646-2492-43be-9802-76fed1f078ed",
+                                "name": "A apetite está bom?",
+                                "value": 0.5,
+                                "time": 1722450958
+                            },
+                            {
+                                "uuid": "c1f7ac34-561e-408f-af49-0a28865641e6",
+                                "name": "De 0 a 10 o quanto está doendo.",
+                                "value": 0.5,
+                                "time": 1722450964
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ultrassonografia",
+                                "value": 1,
+                                "time": 1722451005
+                            },
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Sangue: Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1722451012
+                            },
+                            {
+                                "uuid": "2800f135-0a07-42d5-b323-9e02e1195886",
+                                "name": "Sinal de Murphy",
+                                "value": 0.5,
+                                "time": 1722451221
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "51d4d125-985f-4046-8ffc-e415eb35d17b",
+                                "name": "Calculose da vesícula biliar com colicistite aguda",
+                                "value": 2,
+                                "time": 1722451323
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "9b7106a9-71cb-45e0-8a34-364a6ba5270d",
+                                "name": "Cirurgia Videolaparoscópica",
+                                "value": 0.10000000149011612,
+                                "time": 1722451347
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722524658,
+            "end": 1722524762
+        },
+        "tutorial": {
+            "start": 1722524658,
+            "end": 1722524674
+        },
+        "stations": [
+            {
+                "start": 1722524686,
+                "end": 1722524731,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "b6edd938-2fc5-4894-9098-2f6505f0dea5",
+                                "name": "Teve diarréia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722524701
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": []
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "ec7a72b4-993e-4698-81f3-3cc3f4822734",
+                                "name": "Amigdalite Viral",
+                                "value": 0,
+                                "time": 1722524729
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "57610fbf-39e2-4362-9eb8-728a50608e4d",
+                                "name": "Ibuprofeno",
+                                "value": 0,
+                                "time": 1722524727
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "start": 1722524743,
+                "end": 1722524762,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": []
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": []
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": []
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722528309,
+            "end": 1722529857
+        },
+        "tutorial": {
+            "start": 1722528309,
+            "end": 1722528593
+        },
+        "stations": [
+            {
+                "start": 1722528723,
+                "end": 1722529297,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "ada0abc4-bab1-415a-ad8e-8ee552b47b50",
+                                "name": "Está com falta de ar?",
+                                "value": 0.10000000149011612,
+                                "time": 1722528786
+                            },
+                            {
+                                "uuid": "18a52b60-8361-46c2-ba03-7fc42c901f9f",
+                                "name": "Está aceitando liquído?",
+                                "value": 0.10000000149011612,
+                                "time": 1722528791
+                            },
+                            {
+                                "uuid": "5bf983d3-807d-4aef-a47f-1e2d1dd0724f",
+                                "name": "Teve contato com alguém doente?",
+                                "value": 0,
+                                "time": 1722528810
+                            },
+                            {
+                                "uuid": "06f66e11-1d63-4b4e-9e92-113463f2062f",
+                                "name": "Você deu algum medicamento para febre? A temperatura diminuiu?",
+                                "value": 1,
+                                "time": 1722528827
+                            },
+                            {
+                                "uuid": "4d52f242-5968-43b8-be8c-bd40c89486ad",
+                                "name": "Está com dor no ouvido?",
+                                "value": 0.20000000298023224,
+                                "time": 1722528839
+                            },
+                            {
+                                "uuid": "aa62303f-39e7-4f8a-b5e8-580f7568e44a",
+                                "name": "Há quanto tempo está com febre?",
+                                "value": 1,
+                                "time": 1722528843
+                            },
+                            {
+                                "uuid": "b6edd938-2fc5-4894-9098-2f6505f0dea5",
+                                "name": "Teve diarréia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722528864
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 1,
+                                "time": 1722528872
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 1,
+                                "time": 1722528880
+                            },
+                            {
+                                "uuid": "ac5d4e2a-ef26-4768-989a-c80308fa4a99",
+                                "name": "Tem algum sinal de meningismo?",
+                                "value": 0.20000000298023224,
+                                "time": 1722528890
+                            },
+                            {
+                                "uuid": "0cfd9bb7-020e-4924-9629-0cca558ba1b2",
+                                "name": "O calendário vacinal em dia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722528898
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "8030d0e2-bd18-434c-af1c-9374a3604a53",
+                                "name": "Otoscopia",
+                                "value": 1,
+                                "time": 1722528950
+                            },
+                            {
+                                "uuid": "6679bd99-0ccd-4e0e-a8d9-e4572fac9fb1",
+                                "name": "Ausculta Pulmonar",
+                                "value": 0,
+                                "time": 1722528969
+                            },
+                            {
+                                "uuid": "4797af5b-c1c3-4acb-a47e-8c21cf95820f",
+                                "name": "Oroscopia",
+                                "value": 1,
+                                "time": 1722529044
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "ec7a72b4-993e-4698-81f3-3cc3f4822734",
+                                "name": "Amigdalite Viral",
+                                "value": 0,
+                                "time": 1722529242
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "57610fbf-39e2-4362-9eb8-728a50608e4d",
+                                "name": "Ibuprofeno",
+                                "value": 0,
+                                "time": 1722529289
+                            },
+                            {
+                                "uuid": "4763349e-868c-4a47-8ac7-71e881d97903",
+                                "name": "Dipirona",
+                                "value": 0.20000000298023224,
+                                "time": 1722529294
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "start": 1722529356,
+                "end": 1722529857,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "5b7c8646-2492-43be-9802-76fed1f078ed",
+                                "name": "A apetite está bom?",
+                                "value": 0.5,
+                                "time": 1722529401
+                            },
+                            {
+                                "uuid": "051ca466-c0fc-42eb-8355-01378c096f53",
+                                "name": "Tem alguma coisa que piore a sua dor?",
+                                "value": 0.25,
+                                "time": 1722529405
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 0.25,
+                                "time": 1722529409
+                            },
+                            {
+                                "uuid": "8ee09e97-26df-4649-a2da-bafb74bca2aa",
+                                "name": "Onde doi?",
+                                "value": 0.5,
+                                "time": 1722529415
+                            },
+                            {
+                                "uuid": "c1f7ac34-561e-408f-af49-0a28865641e6",
+                                "name": "De 0 a 10 o quanto está doendo.",
+                                "value": 0.5,
+                                "time": 1722529420
+                            },
+                            {
+                                "uuid": "74a24e97-a2b6-445a-9041-8115fd695d0f",
+                                "name": "Percebeu alguma alteração na cor da pele?",
+                                "value": 0.25,
+                                "time": 1722529437
+                            },
+                            {
+                                "uuid": "ed8a48fa-87fd-457e-9b0a-ef0a8390cb77",
+                                "name": "Teve alteração nas fezes?",
+                                "value": 0.25,
+                                "time": 1722529444
+                            },
+                            {
+                                "uuid": "ead06b95-61e2-471a-a726-cefb2e72071a",
+                                "name": "Teve alteração na urina?",
+                                "value": 0.25,
+                                "time": 1722529462
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 0.25,
+                                "time": 1722529468
+                            },
+                            {
+                                "uuid": "628fd2d4-892e-48c3-b1e6-ea82f54b1a31",
+                                "name": "Como é essa dor? O tipo de dor...",
+                                "value": 0.5,
+                                "time": 1722529472
+                            },
+                            {
+                                "uuid": "b1e486f5-512e-45cb-8771-d2af92d2fc0f",
+                                "name": "Essa dor vai para algum lugar? Irradia?",
+                                "value": 0.5,
+                                "time": 1722529482
+                            },
+                            {
+                                "uuid": "8ec608fa-499d-4498-a740-52a774ece092",
+                                "name": "Chegou ter febre medida no termômetro?",
+                                "value": 0.25,
+                                "time": 1722529501
+                            },
+                            {
+                                "uuid": "61538ef8-5cf3-4cee-accb-f69269c2bfe9",
+                                "name": "Já teve essa dor antes?",
+                                "value": 0.5,
+                                "time": 1722529508
+                            },
+                            {
+                                "uuid": "f14b24a1-1ebd-4e95-a087-8fd47d26c0a2",
+                                "name": "Faz uso de alguma medicação de uso contínuo?",
+                                "value": 0.25,
+                                "time": 1722529519
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "2800f135-0a07-42d5-b323-9e02e1195886",
+                                "name": "Sinal de Murphy",
+                                "value": 0.5,
+                                "time": 1722529627
+                            },
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1722529710
+                            },
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1722529727
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "51d4d125-985f-4046-8ffc-e415eb35d17b",
+                                "name": "Calculose da vesícula biliar com colicistite aguda",
+                                "value": 2,
+                                "time": 1722529793
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "2e8027ad-f4ec-4cab-8428-85cdaf0b8359",
+                                "name": "Internação e Cirurgia",
+                                "value": 1,
+                                "time": 1722529853
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722528309,
+            "end": 1722529882
+        },
+        "tutorial": {
+            "start": 1722528309,
+            "end": 1722528637
+        },
+        "stations": [
+            {
+                "start": 1722528735,
+                "end": 1722529316,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "5b31fede-a044-49fb-a1c7-253c534a61e4",
+                                "name": "Pra que time ele torce?",
+                                "value": 0,
+                                "time": 1722528777
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 1,
+                                "time": 1722528782
+                            },
+                            {
+                                "uuid": "b6edd938-2fc5-4894-9098-2f6505f0dea5",
+                                "name": "Teve diarréia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722528788
+                            },
+                            {
+                                "uuid": "ac5d4e2a-ef26-4768-989a-c80308fa4a99",
+                                "name": "Tem algum sinal de meningismo?",
+                                "value": 0.20000000298023224,
+                                "time": 1722528797
+                            },
+                            {
+                                "uuid": "aa62303f-39e7-4f8a-b5e8-580f7568e44a",
+                                "name": "Há quanto tempo está com febre?",
+                                "value": 1,
+                                "time": 1722528807
+                            },
+                            {
+                                "uuid": "0cfd9bb7-020e-4924-9629-0cca558ba1b2",
+                                "name": "O calendário vacinal em dia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722528812
+                            },
+                            {
+                                "uuid": "5bf983d3-807d-4aef-a47f-1e2d1dd0724f",
+                                "name": "Teve contato com alguém doente?",
+                                "value": 0,
+                                "time": 1722528831
+                            },
+                            {
+                                "uuid": "06f66e11-1d63-4b4e-9e92-113463f2062f",
+                                "name": "Você deu algum medicamento para febre? A temperatura diminuiu?",
+                                "value": 1,
+                                "time": 1722528835
+                            },
+                            {
+                                "uuid": "4d52f242-5968-43b8-be8c-bd40c89486ad",
+                                "name": "Está com dor no ouvido?",
+                                "value": 0.20000000298023224,
+                                "time": 1722528843
+                            },
+                            {
+                                "uuid": "ada0abc4-bab1-415a-ad8e-8ee552b47b50",
+                                "name": "Está com falta de ar?",
+                                "value": 0.10000000149011612,
+                                "time": 1722528849
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 1,
+                                "time": 1722528855
+                            },
+                            {
+                                "uuid": "18a52b60-8361-46c2-ba03-7fc42c901f9f",
+                                "name": "Está aceitando liquído?",
+                                "value": 0.10000000149011612,
+                                "time": 1722528867
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "4797af5b-c1c3-4acb-a47e-8c21cf95820f",
+                                "name": "Oroscopia",
+                                "value": 1,
+                                "time": 1722528949
+                            },
+                            {
+                                "uuid": "8030d0e2-bd18-434c-af1c-9374a3604a53",
+                                "name": "Otoscopia",
+                                "value": 1,
+                                "time": 1722528988
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "56c8c8de-2be9-4c63-86be-fc0f71cf7c0e",
+                                "name": "Otite",
+                                "value": 0,
+                                "time": 1722529195
+                            },
+                            {
+                                "uuid": "ec7a72b4-993e-4698-81f3-3cc3f4822734",
+                                "name": "Amigdalite Viral",
+                                "value": 0,
+                                "time": 1722529249
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "57610fbf-39e2-4362-9eb8-728a50608e4d",
+                                "name": "Ibuprofeno",
+                                "value": 0,
+                                "time": 1722529274
+                            },
+                            {
+                                "uuid": "4763349e-868c-4a47-8ac7-71e881d97903",
+                                "name": "Dipirona",
+                                "value": 0.20000000298023224,
+                                "time": 1722529314
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "start": 1722529366,
+                "end": 1722529882,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 0.25,
+                                "time": 1722529390
+                            },
+                            {
+                                "uuid": "ead06b95-61e2-471a-a726-cefb2e72071a",
+                                "name": "Teve alteração na urina?",
+                                "value": 0.25,
+                                "time": 1722529395
+                            },
+                            {
+                                "uuid": "61538ef8-5cf3-4cee-accb-f69269c2bfe9",
+                                "name": "Já teve essa dor antes?",
+                                "value": 0.5,
+                                "time": 1722529400
+                            },
+                            {
+                                "uuid": "8ee09e97-26df-4649-a2da-bafb74bca2aa",
+                                "name": "Onde doi?",
+                                "value": 0.5,
+                                "time": 1722529409
+                            },
+                            {
+                                "uuid": "051ca466-c0fc-42eb-8355-01378c096f53",
+                                "name": "Tem alguma coisa que piore a sua dor?",
+                                "value": 0.25,
+                                "time": 1722529421
+                            },
+                            {
+                                "uuid": "5b7c8646-2492-43be-9802-76fed1f078ed",
+                                "name": "A apetite está bom?",
+                                "value": 0.5,
+                                "time": 1722529428
+                            },
+                            {
+                                "uuid": "ed8a48fa-87fd-457e-9b0a-ef0a8390cb77",
+                                "name": "Teve alteração nas fezes?",
+                                "value": 0.25,
+                                "time": 1722529435
+                            },
+                            {
+                                "uuid": "f14b24a1-1ebd-4e95-a087-8fd47d26c0a2",
+                                "name": "Faz uso de alguma medicação de uso contínuo?",
+                                "value": 0.25,
+                                "time": 1722529442
+                            },
+                            {
+                                "uuid": "628fd2d4-892e-48c3-b1e6-ea82f54b1a31",
+                                "name": "Como é essa dor? O tipo de dor...",
+                                "value": 0.5,
+                                "time": 1722529458
+                            },
+                            {
+                                "uuid": "b1e486f5-512e-45cb-8771-d2af92d2fc0f",
+                                "name": "Essa dor vai para algum lugar? Irradia?",
+                                "value": 0.5,
+                                "time": 1722529465
+                            },
+                            {
+                                "uuid": "05b9246b-76f9-4b99-bee9-0cb928a85e6a",
+                                "name": "Tem alguma coisa que ajude aliviar a sua dor?",
+                                "value": 0.25,
+                                "time": 1722529473
+                            },
+                            {
+                                "uuid": "74a24e97-a2b6-445a-9041-8115fd695d0f",
+                                "name": "Percebeu alguma alteração na cor da pele?",
+                                "value": 0.25,
+                                "time": 1722529479
+                            },
+                            {
+                                "uuid": "8ec608fa-499d-4498-a740-52a774ece092",
+                                "name": "Chegou ter febre medida no termômetro?",
+                                "value": 0.25,
+                                "time": 1722529485
+                            },
+                            {
+                                "uuid": "c1f7ac34-561e-408f-af49-0a28865641e6",
+                                "name": "De 0 a 10 o quanto está doendo.",
+                                "value": 0.5,
+                                "time": 1722529491
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 0.25,
+                                "time": 1722529496
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "2800f135-0a07-42d5-b323-9e02e1195886",
+                                "name": "Sinal de Murphy",
+                                "value": 0.5,
+                                "time": 1722529567
+                            },
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1722529667
+                            },
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1722529679
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "51d4d125-985f-4046-8ffc-e415eb35d17b",
+                                "name": "Calculose da vesícula biliar com colicistite aguda",
+                                "value": 2,
+                                "time": 1722529706
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "2e8027ad-f4ec-4cab-8428-85cdaf0b8359",
+                                "name": "Internação e Cirurgia",
+                                "value": 1,
+                                "time": 1722529881
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722532665,
+            "end": 1722533095
+        },
+        "tutorial": {
+            "start": 1722532665,
+            "end": 1722532667
+        },
+        "stations": [
+            {
+                "start": 1722532675,
+                "end": 1722532681,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": []
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": []
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": []
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": []
+                    }
+                ]
+            },
+            {
+                "start": 1722532687,
+                "end": 1722533095,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "051ca466-c0fc-42eb-8355-01378c096f53",
+                                "name": "Tem alguma coisa que piore a sua dor?",
+                                "value": 0.25,
+                                "time": 1722532797
+                            },
+                            {
+                                "uuid": "61538ef8-5cf3-4cee-accb-f69269c2bfe9",
+                                "name": "Já teve essa dor antes?",
+                                "value": 0.5,
+                                "time": 1722532807
+                            },
+                            {
+                                "uuid": "f14b24a1-1ebd-4e95-a087-8fd47d26c0a2",
+                                "name": "Faz uso de alguma medicação de uso contínuo?",
+                                "value": 0.25,
+                                "time": 1722532813
+                            },
+                            {
+                                "uuid": "c1f7ac34-561e-408f-af49-0a28865641e6",
+                                "name": "De 0 a 10 o quanto está doendo.",
+                                "value": 0.5,
+                                "time": 1722532818
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 0.25,
+                                "time": 1722532824
+                            },
+                            {
+                                "uuid": "5b7c8646-2492-43be-9802-76fed1f078ed",
+                                "name": "A apetite está bom?",
+                                "value": 0.5,
+                                "time": 1722532828
+                            },
+                            {
+                                "uuid": "05b9246b-76f9-4b99-bee9-0cb928a85e6a",
+                                "name": "Tem alguma coisa que ajude aliviar a sua dor?",
+                                "value": 0.25,
+                                "time": 1722532834
+                            },
+                            {
+                                "uuid": "ead06b95-61e2-471a-a726-cefb2e72071a",
+                                "name": "Teve alteração na urina?",
+                                "value": 0.25,
+                                "time": 1722532840
+                            },
+                            {
+                                "uuid": "ed8a48fa-87fd-457e-9b0a-ef0a8390cb77",
+                                "name": "Teve alteração nas fezes?",
+                                "value": 0.25,
+                                "time": 1722532852
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 0.25,
+                                "time": 1722532860
+                            },
+                            {
+                                "uuid": "8ee09e97-26df-4649-a2da-bafb74bca2aa",
+                                "name": "Onde doi?",
+                                "value": 0.5,
+                                "time": 1722532873
+                            },
+                            {
+                                "uuid": "74a24e97-a2b6-445a-9041-8115fd695d0f",
+                                "name": "Percebeu alguma alteração na cor da pele?",
+                                "value": 0.25,
+                                "time": 1722532879
+                            },
+                            {
+                                "uuid": "628fd2d4-892e-48c3-b1e6-ea82f54b1a31",
+                                "name": "Como é essa dor? O tipo de dor...",
+                                "value": 0.5,
+                                "time": 1722532890
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1722532954
+                            },
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1722532962
+                            },
+                            {
+                                "uuid": "2800f135-0a07-42d5-b323-9e02e1195886",
+                                "name": "Sinal de Murphy",
+                                "value": 0.5,
+                                "time": 1722533027
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "51d4d125-985f-4046-8ffc-e415eb35d17b",
+                                "name": "Calculose da vesícula biliar com colicistite aguda",
+                                "value": 2,
+                                "time": 1722533074
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "2e8027ad-f4ec-4cab-8428-85cdaf0b8359",
+                                "name": "Internação e Cirurgia",
+                                "value": 1,
+                                "time": 1722533094
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722533894,
+            "end": 1722534162
+        },
+        "tutorial": {
+            "start": 1722533894,
+            "end": 1722533903
+        },
+        "stations": [
+            {
+                "start": 1722533914,
+                "end": 1722533931,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": []
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": []
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": []
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": []
+                    }
+                ]
+            },
+            {
+                "start": 1722533950,
+                "end": 1722534162,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": []
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1722534031
+                            },
+                            {
+                                "uuid": "2800f135-0a07-42d5-b323-9e02e1195886",
+                                "name": "Sinal de Murphy",
+                                "value": 0.5,
+                                "time": 1722534057
+                            },
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1722534111
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "51d4d125-985f-4046-8ffc-e415eb35d17b",
+                                "name": "Calculose da vesícula biliar com colicistite aguda",
+                                "value": 2,
+                                "time": 1722534157
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "2e8027ad-f4ec-4cab-8428-85cdaf0b8359",
+                                "name": "Internação e Cirurgia",
+                                "value": 1,
+                                "time": 1722534161
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722536086,
+            "end": 1722537737
+        },
+        "tutorial": {
+            "start": 1722536086,
+            "end": 1722536503
+        },
+        "stations": [
+            {
+                "start": 1722536735,
+                "end": 1722537214,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "0cfd9bb7-020e-4924-9629-0cca558ba1b2",
+                                "name": "O calendário vacinal em dia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722536778
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 1,
+                                "time": 1722536783
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 1,
+                                "time": 1722536798
+                            },
+                            {
+                                "uuid": "18a52b60-8361-46c2-ba03-7fc42c901f9f",
+                                "name": "Está aceitando liquído?",
+                                "value": 0.10000000149011612,
+                                "time": 1722536804
+                            },
+                            {
+                                "uuid": "ada0abc4-bab1-415a-ad8e-8ee552b47b50",
+                                "name": "Está com falta de ar?",
+                                "value": 0.10000000149011612,
+                                "time": 1722536808
+                            },
+                            {
+                                "uuid": "ac5d4e2a-ef26-4768-989a-c80308fa4a99",
+                                "name": "Tem algum sinal de meningismo?",
+                                "value": 0.20000000298023224,
+                                "time": 1722536847
+                            },
+                            {
+                                "uuid": "4d52f242-5968-43b8-be8c-bd40c89486ad",
+                                "name": "Está com dor no ouvido?",
+                                "value": 0.20000000298023224,
+                                "time": 1722536852
+                            },
+                            {
+                                "uuid": "5bf983d3-807d-4aef-a47f-1e2d1dd0724f",
+                                "name": "Teve contato com alguém doente?",
+                                "value": 0,
+                                "time": 1722536857
+                            },
+                            {
+                                "uuid": "06f66e11-1d63-4b4e-9e92-113463f2062f",
+                                "name": "Você deu algum medicamento para febre? A temperatura diminuiu?",
+                                "value": 1,
+                                "time": 1722536871
+                            },
+                            {
+                                "uuid": "aa62303f-39e7-4f8a-b5e8-580f7568e44a",
+                                "name": "Há quanto tempo está com febre?",
+                                "value": 1,
+                                "time": 1722536877
+                            },
+                            {
+                                "uuid": "b6edd938-2fc5-4894-9098-2f6505f0dea5",
+                                "name": "Teve diarréia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722536883
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "4797af5b-c1c3-4acb-a47e-8c21cf95820f",
+                                "name": "Oroscopia",
+                                "value": 1,
+                                "time": 1722537014
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "56c8c8de-2be9-4c63-86be-fc0f71cf7c0e",
+                                "name": "Otite",
+                                "value": 0,
+                                "time": 1722537186
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "67b50c9a-1680-4dff-bf67-edafbd71ccff",
+                                "name": "Amoxicilina + Clavulanato",
+                                "value": 0,
+                                "time": 1722537195
+                            },
+                            {
+                                "uuid": "4763349e-868c-4a47-8ac7-71e881d97903",
+                                "name": "Dipirona",
+                                "value": 0.20000000298023224,
+                                "time": 1722537204
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "start": 1722537337,
+                "end": 1722537737,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "b1e486f5-512e-45cb-8771-d2af92d2fc0f",
+                                "name": "Essa dor vai para algum lugar? Irradia?",
+                                "value": 0.5,
+                                "time": 1722537408
+                            },
+                            {
+                                "uuid": "ead06b95-61e2-471a-a726-cefb2e72071a",
+                                "name": "Teve alteração na urina?",
+                                "value": 0.25,
+                                "time": 1722537417
+                            },
+                            {
+                                "uuid": "5b7c8646-2492-43be-9802-76fed1f078ed",
+                                "name": "A apetite está bom?",
+                                "value": 0.5,
+                                "time": 1722537422
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 0,
+                                "time": 1722537427
+                            },
+                            {
+                                "uuid": "ed8a48fa-87fd-457e-9b0a-ef0a8390cb77",
+                                "name": "Teve alteração nas fezes?",
+                                "value": 0.25,
+                                "time": 1722537431
+                            },
+                            {
+                                "uuid": "f14b24a1-1ebd-4e95-a087-8fd47d26c0a2",
+                                "name": "Faz uso de alguma medicação de uso contínuo?",
+                                "value": 0.25,
+                                "time": 1722537469
+                            },
+                            {
+                                "uuid": "61538ef8-5cf3-4cee-accb-f69269c2bfe9",
+                                "name": "Já teve essa dor antes?",
+                                "value": 0.5,
+                                "time": 1722537481
+                            },
+                            {
+                                "uuid": "05b9246b-76f9-4b99-bee9-0cb928a85e6a",
+                                "name": "Tem alguma coisa que ajude aliviar a sua dor?",
+                                "value": 0.25,
+                                "time": 1722537487
+                            },
+                            {
+                                "uuid": "8ee09e97-26df-4649-a2da-bafb74bca2aa",
+                                "name": "Onde doi?",
+                                "value": 0.5,
+                                "time": 1722537491
+                            },
+                            {
+                                "uuid": "c1f7ac34-561e-408f-af49-0a28865641e6",
+                                "name": "De 0 a 10 o quanto está doendo.",
+                                "value": 0.5,
+                                "time": 1722537497
+                            },
+                            {
+                                "uuid": "628fd2d4-892e-48c3-b1e6-ea82f54b1a31",
+                                "name": "Como é essa dor? O tipo de dor...",
+                                "value": 0.5,
+                                "time": 1722537507
+                            },
+                            {
+                                "uuid": "051ca466-c0fc-42eb-8355-01378c096f53",
+                                "name": "Tem alguma coisa que piore a sua dor?",
+                                "value": 0.25,
+                                "time": 1722537513
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 0.25,
+                                "time": 1722537523
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "2800f135-0a07-42d5-b323-9e02e1195886",
+                                "name": "Sinal de Murphy",
+                                "value": 0.5,
+                                "time": 1722537612
+                            },
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1722537680
+                            },
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1722537685
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "51d4d125-985f-4046-8ffc-e415eb35d17b",
+                                "name": "Calculose da vesícula biliar com colicistite aguda",
+                                "value": 2,
+                                "time": 1722537706
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "9b7106a9-71cb-45e0-8a34-364a6ba5270d",
+                                "name": "Cirurgia Videolaparoscópica",
+                                "value": 0.10000000149011612,
+                                "time": 1722537733
+                            },
+                            {
+                                "uuid": "2e8027ad-f4ec-4cab-8428-85cdaf0b8359",
+                                "name": "Internação e Cirurgia",
+                                "value": 1,
+                                "time": 1722537735
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722604565,
+            "end": 1722607145
+        },
+        "tutorial": {
+            "start": 1722604565,
+            "end": 1722605351
+        },
+        "stations": [
+            {
+                "start": 1722605537,
+                "end": 1722606363,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 1,
+                                "time": 1722605982
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "4797af5b-c1c3-4acb-a47e-8c21cf95820f",
+                                "name": "Oroscopia",
+                                "value": 1,
+                                "time": 1722605799
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "ec7a72b4-993e-4698-81f3-3cc3f4822734",
+                                "name": "Amigdalite Viral",
+                                "value": 0,
+                                "time": 1722606336
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "4763349e-868c-4a47-8ac7-71e881d97903",
+                                "name": "Dipirona",
+                                "value": 0.20000000298023224,
+                                "time": 1722606339
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "start": 1722606445,
+                "end": 1722607145,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": []
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1722607044
+                            },
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1722607106
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "51d4d125-985f-4046-8ffc-e415eb35d17b",
+                                "name": "Calculose da vesícula biliar com colicistite aguda",
+                                "value": 2,
+                                "time": 1722607138
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "c52e9501-f746-4057-a9da-625bec96973a",
+                                "name": "Antibioticoterapia",
+                                "value": 0.10000000149011612,
+                                "time": 1722607144
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722608706,
+            "end": 1722609054
+        },
+        "tutorial": {
+            "start": 1722608706,
+            "end": 1722608708
+        },
+        "stations": [
+            {
+                "start": 1722608728,
+                "end": 1722608868,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "18a52b60-8361-46c2-ba03-7fc42c901f9f",
+                                "name": "Está aceitando liquído?",
+                                "value": 0.10000000149011612,
+                                "time": 1722608745
+                            },
+                            {
+                                "uuid": "ac5d4e2a-ef26-4768-989a-c80308fa4a99",
+                                "name": "Tem algum sinal de meningismo?",
+                                "value": 0.20000000298023224,
+                                "time": 1722608749
+                            },
+                            {
+                                "uuid": "ada0abc4-bab1-415a-ad8e-8ee552b47b50",
+                                "name": "Está com falta de ar?",
+                                "value": 0.10000000149011612,
+                                "time": 1722608754
+                            },
+                            {
+                                "uuid": "b6edd938-2fc5-4894-9098-2f6505f0dea5",
+                                "name": "Teve diarréia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722608758
+                            },
+                            {
+                                "uuid": "5b31fede-a044-49fb-a1c7-253c534a61e4",
+                                "name": "Pra que time ele torce?",
+                                "value": 0,
+                                "time": 1722608779
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "8030d0e2-bd18-434c-af1c-9374a3604a53",
+                                "name": "Otoscopia",
+                                "value": 1,
+                                "time": 1722608798
+                            },
+                            {
+                                "uuid": "6679bd99-0ccd-4e0e-a8d9-e4572fac9fb1",
+                                "name": "Ausculta Pulmonar",
+                                "value": 0,
+                                "time": 1722608806
+                            },
+                            {
+                                "uuid": "4797af5b-c1c3-4acb-a47e-8c21cf95820f",
+                                "name": "Oroscopia",
+                                "value": 1,
+                                "time": 1722608840
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "ec7a72b4-993e-4698-81f3-3cc3f4822734",
+                                "name": "Amigdalite Viral",
+                                "value": 0,
+                                "time": 1722608864
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "cfa61d8c-aab2-4d53-a309-94a64499b3d9",
+                                "name": "Amoxicilina",
+                                "value": 1,
+                                "time": 1722608867
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "start": 1722608886,
+                "end": 1722609054,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "8ee09e97-26df-4649-a2da-bafb74bca2aa",
+                                "name": "Onde doi?",
+                                "value": 0.5,
+                                "time": 1722608936
+                            },
+                            {
+                                "uuid": "05b9246b-76f9-4b99-bee9-0cb928a85e6a",
+                                "name": "Tem alguma coisa que ajude aliviar a sua dor?",
+                                "value": 0.25,
+                                "time": 1722608941
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 0.25,
+                                "time": 1722608946
+                            },
+                            {
+                                "uuid": "5b7c8646-2492-43be-9802-76fed1f078ed",
+                                "name": "A apetite está bom?",
+                                "value": 0.5,
+                                "time": 1722608951
+                            },
+                            {
+                                "uuid": "c1f7ac34-561e-408f-af49-0a28865641e6",
+                                "name": "De 0 a 10 o quanto está doendo.",
+                                "value": 0.5,
+                                "time": 1722608957
+                            },
+                            {
+                                "uuid": "628fd2d4-892e-48c3-b1e6-ea82f54b1a31",
+                                "name": "Como é essa dor? O tipo de dor...",
+                                "value": 0.5,
+                                "time": 1722608964
+                            },
+                            {
+                                "uuid": "051ca466-c0fc-42eb-8355-01378c096f53",
+                                "name": "Tem alguma coisa que piore a sua dor?",
+                                "value": 0.25,
+                                "time": 1722608970
+                            },
+                            {
+                                "uuid": "ed8a48fa-87fd-457e-9b0a-ef0a8390cb77",
+                                "name": "Teve alteração nas fezes?",
+                                "value": 0.25,
+                                "time": 1722608975
+                            },
+                            {
+                                "uuid": "b1e486f5-512e-45cb-8771-d2af92d2fc0f",
+                                "name": "Essa dor vai para algum lugar? Irradia?",
+                                "value": 0.5,
+                                "time": 1722608981
+                            },
+                            {
+                                "uuid": "ead06b95-61e2-471a-a726-cefb2e72071a",
+                                "name": "Teve alteração na urina?",
+                                "value": 0.25,
+                                "time": 1722608986
+                            },
+                            {
+                                "uuid": "61538ef8-5cf3-4cee-accb-f69269c2bfe9",
+                                "name": "Já teve essa dor antes?",
+                                "value": 0.5,
+                                "time": 1722608996
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1722608910
+                            },
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1722608914
+                            },
+                            {
+                                "uuid": "2800f135-0a07-42d5-b323-9e02e1195886",
+                                "name": "Sinal de Murphy",
+                                "value": 0.5,
+                                "time": 1722609013
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "b114bdac-edee-4c10-a6c2-88d7598535ba",
+                                "name": "Pneumotórax não hipertensivo",
+                                "value": -1,
+                                "time": 1722609043
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "2e8027ad-f4ec-4cab-8428-85cdaf0b8359",
+                                "name": "Internação e Cirurgia",
+                                "value": 1,
+                                "time": 1722609053
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722612901,
+            "end": 1722613868
+        },
+        "tutorial": {
+            "start": 1722612901,
+            "end": 1722612906
+        },
+        "stations": [
+            {
+                "start": 1722612928,
+                "end": 1722613219,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "aa62303f-39e7-4f8a-b5e8-580f7568e44a",
+                                "name": "Há quanto tempo está com febre?",
+                                "value": 1,
+                                "time": 1722612952
+                            },
+                            {
+                                "uuid": "5b31fede-a044-49fb-a1c7-253c534a61e4",
+                                "name": "Pra que time ele torce?",
+                                "value": 0,
+                                "time": 1722612956
+                            },
+                            {
+                                "uuid": "ac5d4e2a-ef26-4768-989a-c80308fa4a99",
+                                "name": "Tem algum sinal de meningismo?",
+                                "value": 0.20000000298023224,
+                                "time": 1722612960
+                            },
+                            {
+                                "uuid": "06f66e11-1d63-4b4e-9e92-113463f2062f",
+                                "name": "Você deu algum medicamento para febre? A temperatura diminuiu?",
+                                "value": 1,
+                                "time": 1722612972
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 1,
+                                "time": 1722612979
+                            },
+                            {
+                                "uuid": "b6edd938-2fc5-4894-9098-2f6505f0dea5",
+                                "name": "Teve diarréia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722612985
+                            },
+                            {
+                                "uuid": "4d52f242-5968-43b8-be8c-bd40c89486ad",
+                                "name": "Está com dor no ouvido?",
+                                "value": 0.20000000298023224,
+                                "time": 1722612991
+                            },
+                            {
+                                "uuid": "0cfd9bb7-020e-4924-9629-0cca558ba1b2",
+                                "name": "O calendário vacinal em dia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722612998
+                            },
+                            {
+                                "uuid": "ada0abc4-bab1-415a-ad8e-8ee552b47b50",
+                                "name": "Está com falta de ar?",
+                                "value": 0.10000000149011612,
+                                "time": 1722613006
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "8030d0e2-bd18-434c-af1c-9374a3604a53",
+                                "name": "Otoscopia",
+                                "value": 1,
+                                "time": 1722613028
+                            },
+                            {
+                                "uuid": "6679bd99-0ccd-4e0e-a8d9-e4572fac9fb1",
+                                "name": "Ausculta Pulmonar",
+                                "value": 0,
+                                "time": 1722613077
+                            },
+                            {
+                                "uuid": "4797af5b-c1c3-4acb-a47e-8c21cf95820f",
+                                "name": "Oroscopia",
+                                "value": 1,
+                                "time": 1722613153
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "56c8c8de-2be9-4c63-86be-fc0f71cf7c0e",
+                                "name": "Otite",
+                                "value": 0,
+                                "time": 1722613207
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "57610fbf-39e2-4362-9eb8-728a50608e4d",
+                                "name": "Ibuprofeno",
+                                "value": 0,
+                                "time": 1722613214
+                            },
+                            {
+                                "uuid": "4763349e-868c-4a47-8ac7-71e881d97903",
+                                "name": "Dipirona",
+                                "value": 0.20000000298023224,
+                                "time": 1722613217
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "start": 1722613261,
+                "end": 1722613868,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "5b7c8646-2492-43be-9802-76fed1f078ed",
+                                "name": "A apetite está bom?",
+                                "value": 0.5,
+                                "time": 1722613289
+                            },
+                            {
+                                "uuid": "05b9246b-76f9-4b99-bee9-0cb928a85e6a",
+                                "name": "Tem alguma coisa que ajude aliviar a sua dor?",
+                                "value": 0.25,
+                                "time": 1722613295
+                            },
+                            {
+                                "uuid": "c1f7ac34-561e-408f-af49-0a28865641e6",
+                                "name": "De 0 a 10 o quanto está doendo.",
+                                "value": 0.5,
+                                "time": 1722613299
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 0.25,
+                                "time": 1722613320
+                            },
+                            {
+                                "uuid": "f14b24a1-1ebd-4e95-a087-8fd47d26c0a2",
+                                "name": "Faz uso de alguma medicação de uso contínuo?",
+                                "value": 0.25,
+                                "time": 1722613331
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 0.25,
+                                "time": 1722613338
+                            },
+                            {
+                                "uuid": "74a24e97-a2b6-445a-9041-8115fd695d0f",
+                                "name": "Percebeu alguma alteração na cor da pele?",
+                                "value": 0.25,
+                                "time": 1722613357
+                            },
+                            {
+                                "uuid": "b1e486f5-512e-45cb-8771-d2af92d2fc0f",
+                                "name": "Essa dor vai para algum lugar? Irradia?",
+                                "value": 0.5,
+                                "time": 1722613364
+                            },
+                            {
+                                "uuid": "8ee09e97-26df-4649-a2da-bafb74bca2aa",
+                                "name": "Onde doi?",
+                                "value": 0.5,
+                                "time": 1722613373
+                            },
+                            {
+                                "uuid": "61538ef8-5cf3-4cee-accb-f69269c2bfe9",
+                                "name": "Já teve essa dor antes?",
+                                "value": 0.5,
+                                "time": 1722613380
+                            },
+                            {
+                                "uuid": "8ec608fa-499d-4498-a740-52a774ece092",
+                                "name": "Chegou ter febre medida no termômetro?",
+                                "value": 0.25,
+                                "time": 1722613385
+                            },
+                            {
+                                "uuid": "ead06b95-61e2-471a-a726-cefb2e72071a",
+                                "name": "Teve alteração na urina?",
+                                "value": 0.25,
+                                "time": 1722613393
+                            },
+                            {
+                                "uuid": "628fd2d4-892e-48c3-b1e6-ea82f54b1a31",
+                                "name": "Como é essa dor? O tipo de dor...",
+                                "value": 0.5,
+                                "time": 1722613398
+                            },
+                            {
+                                "uuid": "051ca466-c0fc-42eb-8355-01378c096f53",
+                                "name": "Tem alguma coisa que piore a sua dor?",
+                                "value": 0.25,
+                                "time": 1722613403
+                            },
+                            {
+                                "uuid": "ed8a48fa-87fd-457e-9b0a-ef0a8390cb77",
+                                "name": "Teve alteração nas fezes?",
+                                "value": 0.25,
+                                "time": 1722613420
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1722613564
+                            },
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1722613629
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "51d4d125-985f-4046-8ffc-e415eb35d17b",
+                                "name": "Calculose da vesícula biliar com colicistite aguda",
+                                "value": 2,
+                                "time": 1722613840
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "2e8027ad-f4ec-4cab-8428-85cdaf0b8359",
+                                "name": "Internação e Cirurgia",
+                                "value": 1,
+                                "time": 1722613865
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722878747,
+            "end": 1722880082
+        },
+        "tutorial": {
+            "start": 1722878747,
+            "end": 1722879148
+        },
+        "stations": [
+            {
+                "start": 1722879217,
+                "end": 1722879693,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "aa62303f-39e7-4f8a-b5e8-580f7568e44a",
+                                "name": "Há quanto tempo está com febre?",
+                                "value": 1,
+                                "time": 1722879338
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 1,
+                                "time": 1722879343
+                            },
+                            {
+                                "uuid": "ada0abc4-bab1-415a-ad8e-8ee552b47b50",
+                                "name": "Está com falta de ar?",
+                                "value": 0.10000000149011612,
+                                "time": 1722879378
+                            },
+                            {
+                                "uuid": "ac5d4e2a-ef26-4768-989a-c80308fa4a99",
+                                "name": "Tem algum sinal de meningismo?",
+                                "value": 0.20000000298023224,
+                                "time": 1722879392
+                            },
+                            {
+                                "uuid": "06f66e11-1d63-4b4e-9e92-113463f2062f",
+                                "name": "Você deu algum medicamento para febre? A temperatura diminuiu?",
+                                "value": 1,
+                                "time": 1722879427
+                            },
+                            {
+                                "uuid": "18a52b60-8361-46c2-ba03-7fc42c901f9f",
+                                "name": "Está aceitando liquído?",
+                                "value": 0.10000000149011612,
+                                "time": 1722879441
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 1,
+                                "time": 1722879455
+                            },
+                            {
+                                "uuid": "5bf983d3-807d-4aef-a47f-1e2d1dd0724f",
+                                "name": "Teve contato com alguém doente?",
+                                "value": 0,
+                                "time": 1722879464
+                            },
+                            {
+                                "uuid": "b6edd938-2fc5-4894-9098-2f6505f0dea5",
+                                "name": "Teve diarréia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722879472
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "8030d0e2-bd18-434c-af1c-9374a3604a53",
+                                "name": "Otoscopia",
+                                "value": 1,
+                                "time": 1722879506
+                            },
+                            {
+                                "uuid": "4797af5b-c1c3-4acb-a47e-8c21cf95820f",
+                                "name": "Oroscopia",
+                                "value": 1,
+                                "time": 1722879514
+                            },
+                            {
+                                "uuid": "6679bd99-0ccd-4e0e-a8d9-e4572fac9fb1",
+                                "name": "Ausculta Pulmonar",
+                                "value": 0,
+                                "time": 1722879533
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "56c8c8de-2be9-4c63-86be-fc0f71cf7c0e",
+                                "name": "Otite",
+                                "value": 0,
+                                "time": 1722879609
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "67b50c9a-1680-4dff-bf67-edafbd71ccff",
+                                "name": "Amoxicilina + Clavulanato",
+                                "value": 0,
+                                "time": 1722879643
+                            },
+                            {
+                                "uuid": "4763349e-868c-4a47-8ac7-71e881d97903",
+                                "name": "Dipirona",
+                                "value": 0.20000000298023224,
+                                "time": 1722879691
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "start": 1722879756,
+                "end": 1722880082,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "628fd2d4-892e-48c3-b1e6-ea82f54b1a31",
+                                "name": "Como é essa dor? O tipo de dor...",
+                                "value": 0.5,
+                                "time": 1722879832
+                            },
+                            {
+                                "uuid": "8ee09e97-26df-4649-a2da-bafb74bca2aa",
+                                "name": "Onde doi?",
+                                "value": 0.5,
+                                "time": 1722879844
+                            },
+                            {
+                                "uuid": "051ca466-c0fc-42eb-8355-01378c096f53",
+                                "name": "Tem alguma coisa que piore a sua dor?",
+                                "value": 0.25,
+                                "time": 1722879859
+                            },
+                            {
+                                "uuid": "61538ef8-5cf3-4cee-accb-f69269c2bfe9",
+                                "name": "Já teve essa dor antes?",
+                                "value": 0.5,
+                                "time": 1722879865
+                            },
+                            {
+                                "uuid": "b1e486f5-512e-45cb-8771-d2af92d2fc0f",
+                                "name": "Essa dor vai para algum lugar? Irradia?",
+                                "value": 0.5,
+                                "time": 1722879870
+                            },
+                            {
+                                "uuid": "c1f7ac34-561e-408f-af49-0a28865641e6",
+                                "name": "De 0 a 10 o quanto está doendo.",
+                                "value": 0.5,
+                                "time": 1722879876
+                            },
+                            {
+                                "uuid": "5b7c8646-2492-43be-9802-76fed1f078ed",
+                                "name": "A apetite está bom?",
+                                "value": 0.5,
+                                "time": 1722879885
+                            },
+                            {
+                                "uuid": "f14b24a1-1ebd-4e95-a087-8fd47d26c0a2",
+                                "name": "Faz uso de alguma medicação de uso contínuo?",
+                                "value": 0.25,
+                                "time": 1722879890
+                            },
+                            {
+                                "uuid": "05b9246b-76f9-4b99-bee9-0cb928a85e6a",
+                                "name": "Tem alguma coisa que ajude aliviar a sua dor?",
+                                "value": 0.25,
+                                "time": 1722879897
+                            },
+                            {
+                                "uuid": "ed8a48fa-87fd-457e-9b0a-ef0a8390cb77",
+                                "name": "Teve alteração nas fezes?",
+                                "value": 0.25,
+                                "time": 1722879929
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 0,
+                                "time": 1722879934
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 0.25,
+                                "time": 1722879942
+                            },
+                            {
+                                "uuid": "ead06b95-61e2-471a-a726-cefb2e72071a",
+                                "name": "Teve alteração na urina?",
+                                "value": 0.25,
+                                "time": 1722879946
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1722880017
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "51d4d125-985f-4046-8ffc-e415eb35d17b",
+                                "name": "Calculose da vesícula biliar com colicistite aguda",
+                                "value": 2,
+                                "time": 1722880039
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "4763349e-868c-4a47-8ac7-71e881d97903",
+                                "name": "Dipirona",
+                                "value": -2,
+                                "time": 1722880046
+                            },
+                            {
+                                "uuid": "9b7106a9-71cb-45e0-8a34-364a6ba5270d",
+                                "name": "Cirurgia Videolaparoscópica",
+                                "value": 0.10000000149011612,
+                                "time": 1722880081
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722884193,
+            "end": 1722884585
+        },
+        "tutorial": {
+            "start": 1722884193,
+            "end": 1722884214
+        },
+        "stations": [
+            {
+                "start": 1722884256,
+                "end": 1722884292,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": []
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": []
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": []
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": []
+                    }
+                ]
+            },
+            {
+                "start": 1722884307,
+                "end": 1722884585,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "051ca466-c0fc-42eb-8355-01378c096f53",
+                                "name": "Tem alguma coisa que piore a sua dor?",
+                                "value": 0.25,
+                                "time": 1722884340
+                            },
+                            {
+                                "uuid": "5b7c8646-2492-43be-9802-76fed1f078ed",
+                                "name": "A apetite está bom?",
+                                "value": 0.5,
+                                "time": 1722884344
+                            },
+                            {
+                                "uuid": "05b9246b-76f9-4b99-bee9-0cb928a85e6a",
+                                "name": "Tem alguma coisa que ajude aliviar a sua dor?",
+                                "value": 0.25,
+                                "time": 1722884350
+                            },
+                            {
+                                "uuid": "c1f7ac34-561e-408f-af49-0a28865641e6",
+                                "name": "De 0 a 10 o quanto está doendo.",
+                                "value": 0.5,
+                                "time": 1722884357
+                            },
+                            {
+                                "uuid": "f14b24a1-1ebd-4e95-a087-8fd47d26c0a2",
+                                "name": "Faz uso de alguma medicação de uso contínuo?",
+                                "value": 0.25,
+                                "time": 1722884361
+                            },
+                            {
+                                "uuid": "ed8a48fa-87fd-457e-9b0a-ef0a8390cb77",
+                                "name": "Teve alteração nas fezes?",
+                                "value": 0.25,
+                                "time": 1722884377
+                            },
+                            {
+                                "uuid": "ead06b95-61e2-471a-a726-cefb2e72071a",
+                                "name": "Teve alteração na urina?",
+                                "value": 0.25,
+                                "time": 1722884386
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 0.25,
+                                "time": 1722884391
+                            },
+                            {
+                                "uuid": "61538ef8-5cf3-4cee-accb-f69269c2bfe9",
+                                "name": "Já teve essa dor antes?",
+                                "value": 0.5,
+                                "time": 1722884400
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1722884436
+                            },
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1722884444
+                            },
+                            {
+                                "uuid": "2800f135-0a07-42d5-b323-9e02e1195886",
+                                "name": "Sinal de Murphy",
+                                "value": 0.5,
+                                "time": 1722884482
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "51d4d125-985f-4046-8ffc-e415eb35d17b",
+                                "name": "Calculose da vesícula biliar com colicistite aguda",
+                                "value": 2,
+                                "time": 1722884567
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "2e8027ad-f4ec-4cab-8428-85cdaf0b8359",
+                                "name": "Internação e Cirurgia",
+                                "value": 1,
+                                "time": 1722884572
+                            },
+                            {
+                                "uuid": "c52e9501-f746-4057-a9da-625bec96973a",
+                                "name": "Antibioticoterapia",
+                                "value": 0.10000000149011612,
+                                "time": 1722884578
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722961000,
+            "end": 1722962589
+        },
+        "tutorial": {
+            "start": 1722961000,
+            "end": 1722961572
+        },
+        "stations": [
+            {
+                "start": 1722961714,
+                "end": 1722962248,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "5bf983d3-807d-4aef-a47f-1e2d1dd0724f",
+                                "name": "Teve contato com alguém doente?",
+                                "value": 0,
+                                "time": 1722961824
+                            },
+                            {
+                                "uuid": "aa62303f-39e7-4f8a-b5e8-580f7568e44a",
+                                "name": "Há quanto tempo está com febre?",
+                                "value": 1,
+                                "time": 1722961831
+                            },
+                            {
+                                "uuid": "06f66e11-1d63-4b4e-9e92-113463f2062f",
+                                "name": "Você deu algum medicamento para febre? A temperatura diminuiu?",
+                                "value": 1,
+                                "time": 1722961852
+                            },
+                            {
+                                "uuid": "4d52f242-5968-43b8-be8c-bd40c89486ad",
+                                "name": "Está com dor no ouvido?",
+                                "value": 0.20000000298023224,
+                                "time": 1722961879
+                            },
+                            {
+                                "uuid": "ac5d4e2a-ef26-4768-989a-c80308fa4a99",
+                                "name": "Tem algum sinal de meningismo?",
+                                "value": 0.20000000298023224,
+                                "time": 1722961893
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 1,
+                                "time": 1722961904
+                            },
+                            {
+                                "uuid": "ada0abc4-bab1-415a-ad8e-8ee552b47b50",
+                                "name": "Está com falta de ar?",
+                                "value": 0.10000000149011612,
+                                "time": 1722961914
+                            },
+                            {
+                                "uuid": "0cfd9bb7-020e-4924-9629-0cca558ba1b2",
+                                "name": "O calendário vacinal em dia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722961918
+                            },
+                            {
+                                "uuid": "b6edd938-2fc5-4894-9098-2f6505f0dea5",
+                                "name": "Teve diarréia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722961926
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "8030d0e2-bd18-434c-af1c-9374a3604a53",
+                                "name": "Otoscopia",
+                                "value": 1,
+                                "time": 1722961971
+                            },
+                            {
+                                "uuid": "4797af5b-c1c3-4acb-a47e-8c21cf95820f",
+                                "name": "Oroscopia",
+                                "value": 1,
+                                "time": 1722962006
+                            },
+                            {
+                                "uuid": "6679bd99-0ccd-4e0e-a8d9-e4572fac9fb1",
+                                "name": "Ausculta Pulmonar",
+                                "value": 0,
+                                "time": 1722962101
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "56c8c8de-2be9-4c63-86be-fc0f71cf7c0e",
+                                "name": "Otite",
+                                "value": 0,
+                                "time": 1722962233
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "cfa61d8c-aab2-4d53-a309-94a64499b3d9",
+                                "name": "Amoxicilina",
+                                "value": 1,
+                                "time": 1722962245
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "start": 1722962299,
+                "end": 1722962589,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "c1f7ac34-561e-408f-af49-0a28865641e6",
+                                "name": "De 0 a 10 o quanto está doendo.",
+                                "value": 0.5,
+                                "time": 1722962380
+                            },
+                            {
+                                "uuid": "8ee09e97-26df-4649-a2da-bafb74bca2aa",
+                                "name": "Onde doi?",
+                                "value": 0.5,
+                                "time": 1722962391
+                            },
+                            {
+                                "uuid": "61538ef8-5cf3-4cee-accb-f69269c2bfe9",
+                                "name": "Já teve essa dor antes?",
+                                "value": 0.5,
+                                "time": 1722962399
+                            },
+                            {
+                                "uuid": "051ca466-c0fc-42eb-8355-01378c096f53",
+                                "name": "Tem alguma coisa que piore a sua dor?",
+                                "value": 0.25,
+                                "time": 1722962409
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 0.25,
+                                "time": 1722962415
+                            },
+                            {
+                                "uuid": "f14b24a1-1ebd-4e95-a087-8fd47d26c0a2",
+                                "name": "Faz uso de alguma medicação de uso contínuo?",
+                                "value": 0.25,
+                                "time": 1722962423
+                            },
+                            {
+                                "uuid": "05b9246b-76f9-4b99-bee9-0cb928a85e6a",
+                                "name": "Tem alguma coisa que ajude aliviar a sua dor?",
+                                "value": 0.25,
+                                "time": 1722962432
+                            },
+                            {
+                                "uuid": "b1e486f5-512e-45cb-8771-d2af92d2fc0f",
+                                "name": "Essa dor vai para algum lugar? Irradia?",
+                                "value": 0.5,
+                                "time": 1722962440
+                            },
+                            {
+                                "uuid": "5b7c8646-2492-43be-9802-76fed1f078ed",
+                                "name": "A apetite está bom?",
+                                "value": 0.5,
+                                "time": 1722962447
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1722962513
+                            },
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1722962535
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "51d4d125-985f-4046-8ffc-e415eb35d17b",
+                                "name": "Calculose da vesícula biliar com colicistite aguda",
+                                "value": 2,
+                                "time": 1722962574
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "9b7106a9-71cb-45e0-8a34-364a6ba5270d",
+                                "name": "Cirurgia Videolaparoscópica",
+                                "value": 0.10000000149011612,
+                                "time": 1722962586
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722961173,
+            "end": 1722963230
+        },
+        "tutorial": {
+            "start": 1722961173,
+            "end": 1722961602
+        },
+        "stations": [
+            {
+                "start": 1722961771,
+                "end": 1722962819,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "ac5d4e2a-ef26-4768-989a-c80308fa4a99",
+                                "name": "Tem algum sinal de meningismo?",
+                                "value": 0.20000000298023224,
+                                "time": 1722961811
+                            },
+                            {
+                                "uuid": "ada0abc4-bab1-415a-ad8e-8ee552b47b50",
+                                "name": "Está com falta de ar?",
+                                "value": 0.10000000149011612,
+                                "time": 1722962541
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 1,
+                                "time": 1722962547
+                            },
+                            {
+                                "uuid": "5b31fede-a044-49fb-a1c7-253c534a61e4",
+                                "name": "Pra que time ele torce?",
+                                "value": 0,
+                                "time": 1722962566
+                            },
+                            {
+                                "uuid": "5bf983d3-807d-4aef-a47f-1e2d1dd0724f",
+                                "name": "Teve contato com alguém doente?",
+                                "value": 0,
+                                "time": 1722962572
+                            },
+                            {
+                                "uuid": "b6edd938-2fc5-4894-9098-2f6505f0dea5",
+                                "name": "Teve diarréia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722962594
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "4797af5b-c1c3-4acb-a47e-8c21cf95820f",
+                                "name": "Oroscopia",
+                                "value": 1,
+                                "time": 1722962685
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": []
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": []
+                    }
+                ]
+            },
+            {
+                "start": 1722962854,
+                "end": 1722963230,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "61538ef8-5cf3-4cee-accb-f69269c2bfe9",
+                                "name": "Já teve essa dor antes?",
+                                "value": 0.5,
+                                "time": 1722962888
+                            },
+                            {
+                                "uuid": "5b7c8646-2492-43be-9802-76fed1f078ed",
+                                "name": "A apetite está bom?",
+                                "value": 0.5,
+                                "time": 1722962896
+                            },
+                            {
+                                "uuid": "b1e486f5-512e-45cb-8771-d2af92d2fc0f",
+                                "name": "Essa dor vai para algum lugar? Irradia?",
+                                "value": 0.5,
+                                "time": 1722962908
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 0,
+                                "time": 1722962913
+                            },
+                            {
+                                "uuid": "ed8a48fa-87fd-457e-9b0a-ef0a8390cb77",
+                                "name": "Teve alteração nas fezes?",
+                                "value": 0.25,
+                                "time": 1722962921
+                            },
+                            {
+                                "uuid": "ead06b95-61e2-471a-a726-cefb2e72071a",
+                                "name": "Teve alteração na urina?",
+                                "value": 0.25,
+                                "time": 1722962926
+                            },
+                            {
+                                "uuid": "628fd2d4-892e-48c3-b1e6-ea82f54b1a31",
+                                "name": "Como é essa dor? O tipo de dor...",
+                                "value": 0.5,
+                                "time": 1722962935
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 0.25,
+                                "time": 1722962939
+                            },
+                            {
+                                "uuid": "f14b24a1-1ebd-4e95-a087-8fd47d26c0a2",
+                                "name": "Faz uso de alguma medicação de uso contínuo?",
+                                "value": 0.25,
+                                "time": 1722962946
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1722963107
+                            },
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1722963122
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "51d4d125-985f-4046-8ffc-e415eb35d17b",
+                                "name": "Calculose da vesícula biliar com colicistite aguda",
+                                "value": 2,
+                                "time": 1722963212
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "2e8027ad-f4ec-4cab-8428-85cdaf0b8359",
+                                "name": "Internação e Cirurgia",
+                                "value": 1,
+                                "time": 1722963229
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1722964219,
+            "end": 1722965403
+        },
+        "tutorial": {
+            "start": 1722964220,
+            "end": 1722964473
+        },
+        "stations": [
+            {
+                "start": 1722964558,
+                "end": 1722964975,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "aa62303f-39e7-4f8a-b5e8-580f7568e44a",
+                                "name": "Há quanto tempo está com febre?",
+                                "value": 1,
+                                "time": 1722964642
+                            },
+                            {
+                                "uuid": "5bf983d3-807d-4aef-a47f-1e2d1dd0724f",
+                                "name": "Teve contato com alguém doente?",
+                                "value": 0,
+                                "time": 1722964649
+                            },
+                            {
+                                "uuid": "ac5d4e2a-ef26-4768-989a-c80308fa4a99",
+                                "name": "Tem algum sinal de meningismo?",
+                                "value": 0.20000000298023224,
+                                "time": 1722964655
+                            },
+                            {
+                                "uuid": "0cfd9bb7-020e-4924-9629-0cca558ba1b2",
+                                "name": "O calendário vacinal em dia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722964668
+                            },
+                            {
+                                "uuid": "4d52f242-5968-43b8-be8c-bd40c89486ad",
+                                "name": "Está com dor no ouvido?",
+                                "value": 0.20000000298023224,
+                                "time": 1722964676
+                            },
+                            {
+                                "uuid": "b6edd938-2fc5-4894-9098-2f6505f0dea5",
+                                "name": "Teve diarréia?",
+                                "value": 0.10000000149011612,
+                                "time": 1722964684
+                            },
+                            {
+                                "uuid": "ada0abc4-bab1-415a-ad8e-8ee552b47b50",
+                                "name": "Está com falta de ar?",
+                                "value": 0.10000000149011612,
+                                "time": 1722964696
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 1,
+                                "time": 1722964707
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "6679bd99-0ccd-4e0e-a8d9-e4572fac9fb1",
+                                "name": "Ausculta Pulmonar",
+                                "value": 0,
+                                "time": 1722964789
+                            },
+                            {
+                                "uuid": "4797af5b-c1c3-4acb-a47e-8c21cf95820f",
+                                "name": "Oroscopia",
+                                "value": 1,
+                                "time": 1722964853
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "c546a83a-cad7-4770-8b58-2608dacdedd1",
+                                "name": "Pneumonia",
+                                "value": 0,
+                                "time": 1722964907
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "cfa61d8c-aab2-4d53-a309-94a64499b3d9",
+                                "name": "Amoxicilina",
+                                "value": 1,
+                                "time": 1722964960
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "start": 1722965044,
+                "end": 1722965403,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "61538ef8-5cf3-4cee-accb-f69269c2bfe9",
+                                "name": "Já teve essa dor antes?",
+                                "value": 0.5,
+                                "time": 1722965100
+                            },
+                            {
+                                "uuid": "8ee09e97-26df-4649-a2da-bafb74bca2aa",
+                                "name": "Onde doi?",
+                                "value": 0.5,
+                                "time": 1722965106
+                            },
+                            {
+                                "uuid": "5b7c8646-2492-43be-9802-76fed1f078ed",
+                                "name": "A apetite está bom?",
+                                "value": 0.5,
+                                "time": 1722965114
+                            },
+                            {
+                                "uuid": "ed8a48fa-87fd-457e-9b0a-ef0a8390cb77",
+                                "name": "Teve alteração nas fezes?",
+                                "value": 0.25,
+                                "time": 1722965118
+                            },
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 0.25,
+                                "time": 1722965129
+                            },
+                            {
+                                "uuid": "628fd2d4-892e-48c3-b1e6-ea82f54b1a31",
+                                "name": "Como é essa dor? O tipo de dor...",
+                                "value": 0.5,
+                                "time": 1722965136
+                            },
+                            {
+                                "uuid": "051ca466-c0fc-42eb-8355-01378c096f53",
+                                "name": "Tem alguma coisa que piore a sua dor?",
+                                "value": 0.25,
+                                "time": 1722965145
+                            },
+                            {
+                                "uuid": "b1e486f5-512e-45cb-8771-d2af92d2fc0f",
+                                "name": "Essa dor vai para algum lugar? Irradia?",
+                                "value": 0.5,
+                                "time": 1722965151
+                            },
+                            {
+                                "uuid": "c1f7ac34-561e-408f-af49-0a28865641e6",
+                                "name": "De 0 a 10 o quanto está doendo.",
+                                "value": 0.5,
+                                "time": 1722965157
+                            },
+                            {
+                                "uuid": "05b9246b-76f9-4b99-bee9-0cb928a85e6a",
+                                "name": "Tem alguma coisa que ajude aliviar a sua dor?",
+                                "value": 0.25,
+                                "time": 1722965163
+                            },
+                            {
+                                "uuid": "f14b24a1-1ebd-4e95-a087-8fd47d26c0a2",
+                                "name": "Faz uso de alguma medicação de uso contínuo?",
+                                "value": 0.25,
+                                "time": 1722965168
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1722965183
+                            },
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1722965200
+                            },
+                            {
+                                "uuid": "2800f135-0a07-42d5-b323-9e02e1195886",
+                                "name": "Sinal de Murphy",
+                                "value": 0.5,
+                                "time": 1722965313
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "51d4d125-985f-4046-8ffc-e415eb35d17b",
+                                "name": "Calculose da vesícula biliar com colicistite aguda",
+                                "value": 2,
+                                "time": 1722965358
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "2e8027ad-f4ec-4cab-8428-85cdaf0b8359",
+                                "name": "Internação e Cirurgia",
+                                "value": 1,
+                                "time": 1722965398
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1723046049,
+            "end": 1723048354
+        },
+        "tutorial": {
+            "start": 1723046049,
+            "end": 1723046547
+        },
+        "stations": [
+            {
+                "start": 1723046721,
+                "end": 1723047468,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 1,
+                                "time": 1723046978
+                            },
+                            {
+                                "uuid": "5b31fede-a044-49fb-a1c7-253c534a61e4",
+                                "name": "Pra que time ele torce?",
+                                "value": 0,
+                                "time": 1723046995
+                            },
+                            {
+                                "uuid": "b6edd938-2fc5-4894-9098-2f6505f0dea5",
+                                "name": "Teve diarréia?",
+                                "value": 0.10000000149011612,
+                                "time": 1723047004
+                            },
+                            {
+                                "uuid": "18a52b60-8361-46c2-ba03-7fc42c901f9f",
+                                "name": "Está aceitando liquído?",
+                                "value": 0.10000000149011612,
+                                "time": 1723047017
+                            },
+                            {
+                                "uuid": "4d52f242-5968-43b8-be8c-bd40c89486ad",
+                                "name": "Está com dor no ouvido?",
+                                "value": 0.20000000298023224,
+                                "time": 1723047022
+                            },
+                            {
+                                "uuid": "5bf983d3-807d-4aef-a47f-1e2d1dd0724f",
+                                "name": "Teve contato com alguém doente?",
+                                "value": 0,
+                                "time": 1723047027
+                            },
+                            {
+                                "uuid": "aa62303f-39e7-4f8a-b5e8-580f7568e44a",
+                                "name": "Há quanto tempo está com febre?",
+                                "value": 1,
+                                "time": 1723047035
+                            },
+                            {
+                                "uuid": "ada0abc4-bab1-415a-ad8e-8ee552b47b50",
+                                "name": "Está com falta de ar?",
+                                "value": 0.10000000149011612,
+                                "time": 1723047041
+                            },
+                            {
+                                "uuid": "ac5d4e2a-ef26-4768-989a-c80308fa4a99",
+                                "name": "Tem algum sinal de meningismo?",
+                                "value": 0.20000000298023224,
+                                "time": 1723047046
+                            },
+                            {
+                                "uuid": "0cfd9bb7-020e-4924-9629-0cca558ba1b2",
+                                "name": "O calendário vacinal em dia?",
+                                "value": 0.10000000149011612,
+                                "time": 1723047051
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 1,
+                                "time": 1723047057
+                            },
+                            {
+                                "uuid": "06f66e11-1d63-4b4e-9e92-113463f2062f",
+                                "name": "Você deu algum medicamento para febre? A temperatura diminuiu?",
+                                "value": 1,
+                                "time": 1723047081
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "4797af5b-c1c3-4acb-a47e-8c21cf95820f",
+                                "name": "Oroscopia",
+                                "value": 1,
+                                "time": 1723047134
+                            },
+                            {
+                                "uuid": "8030d0e2-bd18-434c-af1c-9374a3604a53",
+                                "name": "Otoscopia",
+                                "value": 1,
+                                "time": 1723047263
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "9af8aed4-28ae-4492-bfda-bd891da26451",
+                                "name": "Amigdalite Bacteriana",
+                                "value": 1,
+                                "time": 1723047427
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "67b50c9a-1680-4dff-bf67-edafbd71ccff",
+                                "name": "Amoxicilina + Clavulanato",
+                                "value": 0,
+                                "time": 1723047461
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "start": 1723047547,
+                "end": 1723048354,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 0.25,
+                                "time": 1723047616
+                            },
+                            {
+                                "uuid": "f14b24a1-1ebd-4e95-a087-8fd47d26c0a2",
+                                "name": "Faz uso de alguma medicação de uso contínuo?",
+                                "value": 0.25,
+                                "time": 1723047623
+                            },
+                            {
+                                "uuid": "05b9246b-76f9-4b99-bee9-0cb928a85e6a",
+                                "name": "Tem alguma coisa que ajude aliviar a sua dor?",
+                                "value": 0.25,
+                                "time": 1723047629
+                            },
+                            {
+                                "uuid": "628fd2d4-892e-48c3-b1e6-ea82f54b1a31",
+                                "name": "Como é essa dor? O tipo de dor...",
+                                "value": 0.5,
+                                "time": 1723047634
+                            },
+                            {
+                                "uuid": "ed8a48fa-87fd-457e-9b0a-ef0a8390cb77",
+                                "name": "Teve alteração nas fezes?",
+                                "value": 0.25,
+                                "time": 1723047639
+                            },
+                            {
+                                "uuid": "c1f7ac34-561e-408f-af49-0a28865641e6",
+                                "name": "De 0 a 10 o quanto está doendo.",
+                                "value": 0.5,
+                                "time": 1723047643
+                            },
+                            {
+                                "uuid": "b1e486f5-512e-45cb-8771-d2af92d2fc0f",
+                                "name": "Essa dor vai para algum lugar? Irradia?",
+                                "value": 0.5,
+                                "time": 1723047649
+                            },
+                            {
+                                "uuid": "5b7c8646-2492-43be-9802-76fed1f078ed",
+                                "name": "A apetite está bom?",
+                                "value": 0.5,
+                                "time": 1723047654
+                            },
+                            {
+                                "uuid": "ead06b95-61e2-471a-a726-cefb2e72071a",
+                                "name": "Teve alteração na urina?",
+                                "value": 0.25,
+                                "time": 1723047659
+                            },
+                            {
+                                "uuid": "61538ef8-5cf3-4cee-accb-f69269c2bfe9",
+                                "name": "Já teve essa dor antes?",
+                                "value": 0.5,
+                                "time": 1723047664
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 0,
+                                "time": 1723047678
+                            },
+                            {
+                                "uuid": "8ee09e97-26df-4649-a2da-bafb74bca2aa",
+                                "name": "Onde doi?",
+                                "value": 0.5,
+                                "time": 1723047682
+                            },
+                            {
+                                "uuid": "051ca466-c0fc-42eb-8355-01378c096f53",
+                                "name": "Tem alguma coisa que piore a sua dor?",
+                                "value": 0.25,
+                                "time": 1723047691
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1723047749
+                            },
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1723047817
+                            },
+                            {
+                                "uuid": "2800f135-0a07-42d5-b323-9e02e1195886",
+                                "name": "Sinal de Murphy",
+                                "value": 0.5,
+                                "time": 1723048165
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "51d4d125-985f-4046-8ffc-e415eb35d17b",
+                                "name": "Calculose da vesícula biliar com colicistite aguda",
+                                "value": 2,
+                                "time": 1723048308
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "9b7106a9-71cb-45e0-8a34-364a6ba5270d",
+                                "name": "Cirurgia Videolaparoscópica",
+                                "value": 0.10000000149011612,
+                                "time": 1723048352
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1723056411,
+            "end": 1723058228
+        },
+        "tutorial": {
+            "start": 1723056411,
+            "end": 1723056769
+        },
+        "stations": [
+            {
+                "start": 1723056927,
+                "end": 1723057496,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "0cfd9bb7-020e-4924-9629-0cca558ba1b2",
+                                "name": "O calendário vacinal em dia?",
+                                "value": 0.10000000149011612,
+                                "time": 1723057069
+                            },
+                            {
+                                "uuid": "18a52b60-8361-46c2-ba03-7fc42c901f9f",
+                                "name": "Está aceitando liquído?",
+                                "value": 0.10000000149011612,
+                                "time": 1723057074
+                            },
+                            {
+                                "uuid": "b6edd938-2fc5-4894-9098-2f6505f0dea5",
+                                "name": "Teve diarréia?",
+                                "value": 0.10000000149011612,
+                                "time": 1723057093
+                            },
+                            {
+                                "uuid": "4d52f242-5968-43b8-be8c-bd40c89486ad",
+                                "name": "Está com dor no ouvido?",
+                                "value": 0.20000000298023224,
+                                "time": 1723057103
+                            },
+                            {
+                                "uuid": "ac5d4e2a-ef26-4768-989a-c80308fa4a99",
+                                "name": "Tem algum sinal de meningismo?",
+                                "value": 0.20000000298023224,
+                                "time": 1723057126
+                            },
+                            {
+                                "uuid": "06f66e11-1d63-4b4e-9e92-113463f2062f",
+                                "name": "Você deu algum medicamento para febre? A temperatura diminuiu?",
+                                "value": 1,
+                                "time": 1723057137
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "4797af5b-c1c3-4acb-a47e-8c21cf95820f",
+                                "name": "Oroscopia",
+                                "value": 1,
+                                "time": 1723057319
+                            },
+                            {
+                                "uuid": "6679bd99-0ccd-4e0e-a8d9-e4572fac9fb1",
+                                "name": "Ausculta Pulmonar",
+                                "value": 0,
+                                "time": 1723057378
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "ec7a72b4-993e-4698-81f3-3cc3f4822734",
+                                "name": "Amigdalite Viral",
+                                "value": 0,
+                                "time": 1723057477
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "cfa61d8c-aab2-4d53-a309-94a64499b3d9",
+                                "name": "Amoxicilina",
+                                "value": 1,
+                                "time": 1723057493
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "start": 1723057594,
+                "end": 1723058228,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "c1f7ac34-561e-408f-af49-0a28865641e6",
+                                "name": "De 0 a 10 o quanto está doendo.",
+                                "value": 0.5,
+                                "time": 1723057715
+                            },
+                            {
+                                "uuid": "8ee09e97-26df-4649-a2da-bafb74bca2aa",
+                                "name": "Onde doi?",
+                                "value": 0.5,
+                                "time": 1723057724
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 0,
+                                "time": 1723057730
+                            },
+                            {
+                                "uuid": "628fd2d4-892e-48c3-b1e6-ea82f54b1a31",
+                                "name": "Como é essa dor? O tipo de dor...",
+                                "value": 0.5,
+                                "time": 1723057743
+                            },
+                            {
+                                "uuid": "b1e486f5-512e-45cb-8771-d2af92d2fc0f",
+                                "name": "Essa dor vai para algum lugar? Irradia?",
+                                "value": 0.5,
+                                "time": 1723057750
+                            },
+                            {
+                                "uuid": "051ca466-c0fc-42eb-8355-01378c096f53",
+                                "name": "Tem alguma coisa que piore a sua dor?",
+                                "value": 0.25,
+                                "time": 1723057761
+                            },
+                            {
+                                "uuid": "05b9246b-76f9-4b99-bee9-0cb928a85e6a",
+                                "name": "Tem alguma coisa que ajude aliviar a sua dor?",
+                                "value": 0.25,
+                                "time": 1723057768
+                            },
+                            {
+                                "uuid": "ed8a48fa-87fd-457e-9b0a-ef0a8390cb77",
+                                "name": "Teve alteração nas fezes?",
+                                "value": 0.25,
+                                "time": 1723057779
+                            },
+                            {
+                                "uuid": "5b7c8646-2492-43be-9802-76fed1f078ed",
+                                "name": "A apetite está bom?",
+                                "value": 0.5,
+                                "time": 1723057795
+                            },
+                            {
+                                "uuid": "f14b24a1-1ebd-4e95-a087-8fd47d26c0a2",
+                                "name": "Faz uso de alguma medicação de uso contínuo?",
+                                "value": 0.25,
+                                "time": 1723057802
+                            },
+                            {
+                                "uuid": "61538ef8-5cf3-4cee-accb-f69269c2bfe9",
+                                "name": "Já teve essa dor antes?",
+                                "value": 0.5,
+                                "time": 1723057814
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1723057896
+                            },
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1723057915
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "e25a67a7-bfdb-4efd-a1fe-61a1179ab70a",
+                                "name": "Pancreatite Aguda",
+                                "value": 0,
+                                "time": 1723058217
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "2e8027ad-f4ec-4cab-8428-85cdaf0b8359",
+                                "name": "Internação e Cirurgia",
+                                "value": 1,
+                                "time": 1723058227
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "trail_uuid": "",
+        "simulation": {
+            "start": 1723123073,
+            "end": 1723123849
+        },
+        "tutorial": {
+            "start": 1723123073,
+            "end": 1723123355
+        },
+        "stations": [
+            {
+                "start": 1723123407,
+                "end": 1723123651,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "5b31fede-a044-49fb-a1c7-253c534a61e4",
+                                "name": "Pra que time ele torce?",
+                                "value": 0,
+                                "time": 1723123461
+                            },
+                            {
+                                "uuid": "ac5d4e2a-ef26-4768-989a-c80308fa4a99",
+                                "name": "Tem algum sinal de meningismo?",
+                                "value": 0.20000000298023224,
+                                "time": 1723123474
+                            },
+                            {
+                                "uuid": "ada0abc4-bab1-415a-ad8e-8ee552b47b50",
+                                "name": "Está com falta de ar?",
+                                "value": 0.10000000149011612,
+                                "time": 1723123479
+                            },
+                            {
+                                "uuid": "06f66e11-1d63-4b4e-9e92-113463f2062f",
+                                "name": "Você deu algum medicamento para febre? A temperatura diminuiu?",
+                                "value": 1,
+                                "time": 1723123488
+                            },
+                            {
+                                "uuid": "0cfd9bb7-020e-4924-9629-0cca558ba1b2",
+                                "name": "O calendário vacinal em dia?",
+                                "value": 0.10000000149011612,
+                                "time": 1723123508
+                            },
+                            {
+                                "uuid": "4d52f242-5968-43b8-be8c-bd40c89486ad",
+                                "name": "Está com dor no ouvido?",
+                                "value": 0.20000000298023224,
+                                "time": 1723123518
+                            },
+                            {
+                                "uuid": "b6edd938-2fc5-4894-9098-2f6505f0dea5",
+                                "name": "Teve diarréia?",
+                                "value": 0.10000000149011612,
+                                "time": 1723123548
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "4797af5b-c1c3-4acb-a47e-8c21cf95820f",
+                                "name": "Oroscopia",
+                                "value": 1,
+                                "time": 1723123594
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "56c8c8de-2be9-4c63-86be-fc0f71cf7c0e",
+                                "name": "Otite",
+                                "value": 0,
+                                "time": 1723123638
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "67b50c9a-1680-4dff-bf67-edafbd71ccff",
+                                "name": "Amoxicilina + Clavulanato",
+                                "value": 0,
+                                "time": 1723123648
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "start": 1723123671,
+                "end": 1723123849,
+                "uuid": "",
+                "rating": [
+                    {
+                        "name": "Anamnese",
+                        "checks": [
+                            {
+                                "uuid": "855f596d-2639-4adf-baf5-53037e3a0256",
+                                "name": "Tem alergia a algum medicamento?",
+                                "value": 0.25,
+                                "time": 1723123693
+                            },
+                            {
+                                "uuid": "f14b24a1-1ebd-4e95-a087-8fd47d26c0a2",
+                                "name": "Faz uso de alguma medicação de uso contínuo?",
+                                "value": 0.25,
+                                "time": 1723123709
+                            },
+                            {
+                                "uuid": "ead06b95-61e2-471a-a726-cefb2e72071a",
+                                "name": "Teve alteração na urina?",
+                                "value": 0.25,
+                                "time": 1723123714
+                            },
+                            {
+                                "uuid": "5b7c8646-2492-43be-9802-76fed1f078ed",
+                                "name": "A apetite está bom?",
+                                "value": 0.5,
+                                "time": 1723123718
+                            },
+                            {
+                                "uuid": "61538ef8-5cf3-4cee-accb-f69269c2bfe9",
+                                "name": "Já teve essa dor antes?",
+                                "value": 0.5,
+                                "time": 1723123722
+                            },
+                            {
+                                "uuid": "628fd2d4-892e-48c3-b1e6-ea82f54b1a31",
+                                "name": "Como é essa dor? O tipo de dor...",
+                                "value": 0.5,
+                                "time": 1723123728
+                            },
+                            {
+                                "uuid": "c1f7ac34-561e-408f-af49-0a28865641e6",
+                                "name": "De 0 a 10 o quanto está doendo.",
+                                "value": 0.5,
+                                "time": 1723123732
+                            },
+                            {
+                                "uuid": "8ee09e97-26df-4649-a2da-bafb74bca2aa",
+                                "name": "Onde doi?",
+                                "value": 0.5,
+                                "time": 1723123736
+                            },
+                            {
+                                "uuid": "142ae081-783d-4e9a-81dd-98575719be5c",
+                                "name": "Até que temperatura a febre chegou?",
+                                "value": 0,
+                                "time": 1723123742
+                            },
+                            {
+                                "uuid": "ed8a48fa-87fd-457e-9b0a-ef0a8390cb77",
+                                "name": "Teve alteração nas fezes?",
+                                "value": 0.25,
+                                "time": 1723123746
+                            },
+                            {
+                                "uuid": "b1e486f5-512e-45cb-8771-d2af92d2fc0f",
+                                "name": "Essa dor vai para algum lugar? Irradia?",
+                                "value": 0.5,
+                                "time": 1723123751
+                            },
+                            {
+                                "uuid": "05b9246b-76f9-4b99-bee9-0cb928a85e6a",
+                                "name": "Tem alguma coisa que ajude aliviar a sua dor?",
+                                "value": 0.25,
+                                "time": 1723123755
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exames",
+                        "checks": [
+                            {
+                                "uuid": "f34c2ba6-2997-466b-809a-dec3c451caef",
+                                "name": "Ecografia",
+                                "value": 1,
+                                "time": 1723123775
+                            },
+                            {
+                                "uuid": "5eb1b651-fd68-4ca5-8a43-03e75dbc2d90",
+                                "name": "Hemograma Completo",
+                                "value": 0.5,
+                                "time": 1723123789
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diagnóstico",
+                        "checks": [
+                            {
+                                "uuid": "51d4d125-985f-4046-8ffc-e415eb35d17b",
+                                "name": "Calculose da vesícula biliar com colicistite aguda",
+                                "value": 2,
+                                "time": 1723123837
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tratamento",
+                        "checks": [
+                            {
+                                "uuid": "9b7106a9-71cb-45e0-8a34-364a6ba5270d",
+                                "name": "Cirurgia Videolaparoscópica",
+                                "value": 0.10000000149011612,
+                                "time": 1723123848
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
