@@ -18,8 +18,7 @@
     overflow: hidden;
     width: 100%;
     height: 100%;
-    margin-left: 1em;
-    margin-right: 1em;
+    background-image: url(https://svgshare.com/i/eGa.svg);
 }
 .timeline .item {
     position: absolute;

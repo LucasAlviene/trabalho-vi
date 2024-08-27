@@ -1,6 +1,6 @@
 import Slider from 'rc-slider';
 import '../timeline.css'
-import { Button, Icon } from "semantic-ui-react"
+import { Button, Icon, SemanticICONS } from "semantic-ui-react"
 import { cloneElement, useEffect, useState } from 'react';
 import { getColor } from '../../Utils/Color';
 import { useApp } from '../AppContext';
@@ -25,6 +25,19 @@ const getTop = (type: string) => {
     return "50%"
 }
 
+const getIcon = (type: string): SemanticICONS => {
+    switch (type) {
+        case 'play': return 'play circle';
+        case 'pause': return 'pause circle';
+        case 'stop': return 'stop circle';
+        case 'Exames': return 'stethoscope';
+        case 'Anamnese': return 'clipboard';
+        case 'Diagnóstico': return 'hospital';
+        case 'Tratamento': return 'medkit';
+    }
+    return 'question circle';
+}
+
 const Item = ({ time, max, user, type, tooltip, offset, uuid }: ItemProps) => {
     const { setItemHighlight, timelineHighlight } = useApp();
     // console.log(time, max);
@@ -38,7 +51,7 @@ const Item = ({ time, max, user, type, tooltip, offset, uuid }: ItemProps) => {
     return (
         <div className="item" style={{ left: ((time - offset) / max * 100).toFixed(2) + "%", borderColor: getColor(user), top: getTop(type), opacity: timelineHighlight.length == 0 || timelineHighlight.includes(uuid) ? 1 : 0.2 }}>
             <div className="content" data-tooltip={tooltip} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                <Icon name="play circle" />
+                <Icon name={getIcon(type)} />
             </div>
             <time>{convertTime(time)}</time>
         </div>

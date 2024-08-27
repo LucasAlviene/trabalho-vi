@@ -49,12 +49,14 @@ const Item = ({ time, max, user, active, type, tooltip, offset, uuid }: ItemProp
         setItemHighlight((old) => old.filter((item) => item !== uuid));
     }
 
+    //if(((time - offset) / max * 100) < 100) return null;
+    if(user != 10) return null;
     return (
-        <div className="item" style={{ left: "calc(" + ((time - offset) / max * 100).toFixed(2) + "% ) ", borderColor: getColor(user), top: user * 10 + 50, opacity: active ? 1 : 0.05 }}>
+        <div className="item" data-value={((time - offset) / max * 100).toFixed(2)} style={{ left: "calc(" + ((time - offset) / max * 100).toFixed(2) + "% ) ", borderColor: getColor(user), top: user * 10 + 50, opacity: active ? 1 : 0.05 }}>
             <div className="content" data-tooltip={tooltip} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <Icon name={getIcon(type)} />
             </div>
-            <time>{active ? convertTime(time) : ""}</time>
+            <time>{active || true ? convertTime(time) : ""}</time>
         </div>
     )
 }
@@ -83,7 +85,6 @@ const Timeline = ({ users, selected }: { users: Simulation[], selected: any }) =
         //        setStart(() => Math.min(0, ...user.stations.map((item) => item.map((item: any) => item.start)).flat()));
         ///const max = Math.max(0, ...user.stations.map((item) => item.map((item: any) => item.end - item.start)).flat());
         const max = Math.max(0, ...users.map((trail) => trail.simulation.end - trail.simulation.start).flat());
-        console.log(max)
         setMax(max);
     }, [users]);
 
@@ -113,20 +114,20 @@ const Timeline = ({ users, selected }: { users: Simulation[], selected: any }) =
                     <div className='container'>
                         {users.map((trail, user) => (
                             <>
-                                <Item active={selected.includes(user)} uuid={String(user)} tooltip="Começo da Trilha" type="play" offset={time} time={start} max={maxTimeline} user={user} />
                                 {trail.stations.map((station: any, id) => (
                                     <>
-                                        <Item active={selected.includes(user)} uuid={station.uuid} tooltip={"Começo da Estação " + (id + 1)} type="play" offset={time} time={station.start} max={maxTimeline} user={user} />
+                                        <Item active={selected.includes(user)} uuid={station.uuid} tooltip={"Começo da Estação " + (id + 1)} type="play" offset={time} time={station.start - trail.simulation.start} max={maxTimeline} user={user} />
+                                        <Item active={selected.includes(user)} uuid={station.uuid} tooltip={"Termino do Tutorial "} type="stop" offset={time} time={trail.tutorial.end - trail.simulation.start} max={maxTimeline} user={user} />
                                         {station.rating.map((rating) => (
                                             <>
-                                                {rating.checks.map((check) => <Item active={selected.includes(user)} uuid={check.uuid} tooltip={check.name} type={rating.name} offset={time} time={check.time - station.start} max={maxTimeline} user={user} />)}
+                                                {rating.checks.map((check) => <Item active={selected.includes(user)} uuid={check.uuid} tooltip={check.name} type={rating.name} offset={time} time={check.time - trail.simulation.start} max={maxTimeline} user={user} />)}
                                             </>
                                         ))}
-                                        <Item active={selected.includes(user)} uuid={station.uuid} tooltip={"Termino da Estação " + (id + 1)} type="pause" offset={time} time={station.end - station.start} max={maxTimeline} user={user} />
+                                        <Item active={selected.includes(user)} uuid={station.uuid} tooltip={"Termino da Estação " + (id + 1)} type="pause" offset={time} time={station.end - station.start - trail.simulation.start} max={maxTimeline} user={user} />
                                     </>
                                 )
                                 )}
-                                <Item active={selected.includes(user)} uuid={String(user)} tooltip="Final da Trilha" type="stop" offset={time} time={trail.simulation.end} max={maxTimeline} user={user} />
+                                <Item active={selected.includes(user)} uuid={String(user)} tooltip={"Final da Trilha" + user} type="stop" offset={time} time={trail.simulation.end - trail.simulation.start} max={maxTimeline} user={user} />
                             </>
                         ))}
                     </div>

@@ -14,6 +14,7 @@ type Check = {
 
 
 type Station = {
+    result: boolean
     uuid: string;
     rating: {
         name: string;
@@ -27,4 +28,5 @@ type Simulation = {
     simulation: TimeRecord
     tutorial: TimeRecord
     stations: Station[]
+    result: boolean
 }
