@@ -86,7 +86,7 @@ const Timeline = ({ list }: { list: Station[] }) => {
     useEffect(() => {
         if (play) {
             const diff = max - zoom * max;
-            if (time == diff) setTime(0);
+            if (time > diff-10) setTime(0);
             const interval = setInterval(() => {
                 setTime((time) => {
                     if (time + 1 >= diff) {
