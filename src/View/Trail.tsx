@@ -1,41 +1,34 @@
 import { useState } from 'react'
 import { Container, Grid, Header } from 'semantic-ui-react'
-import Alunos from '../Component/Alunos'
-import Categorias from '../Component/Categorias'
-import Timeline from '../Component/Timeline';
+import Categorias from '../Component/Trail/Categorias'
+import Timeline from '../Component/Trail/Timeline';
 import simulationData from '../simulation.json'
+import Estacoes from '../Component/Trail/Estacoes';
+import Alunos from '../Component/Trail/Alunos';
 
 function Trail({ id = "1" }: { id: string }) {
-    const [selected, setSelected] = useState<number[]>([]);
+    const [selectedStation, setSelectedStation] = useState<number[]>([]);
+    const [selectedAlunos, setSelectedAlunos] = useState<number[]>([]);
 
-    const listSelected = selected.map((id) => simulationData[id].stations[id]);
+    const listSelected: Simulation[] = simulationData.reduce<Simulation[]>((current, item, user) => {
+        const newItem = { ...item }
+        newItem.stations = newItem.stations.filter((station, id) => selectedStation.includes(id))
+        if (newItem.stations.length > 0) current.push(newItem);
+        return current;
+    }, [])
+
     return (
         <Container fluid style={{ marginTop: "3em", padding: "2em" }}>
 
             <Grid>
                 <Grid.Column width={13}>
                     <Header as="h2" content={`Trilha ${id}`} />
-                    <Timeline list={listSelected} />
-
-                    <Header content="Resultado" />
-                    <Grid columns={4}>
-                        <Grid.Column>
-                            <Categorias title="Exames" list={listSelected} />
-                        </Grid.Column>
-                        <Grid.Column>
-                            <Categorias title="Anamnese" list={listSelected} />
-                        </Grid.Column>
-                        <Grid.Column>
-                            <Categorias title="Diagnóstico" list={listSelected} />
-                        </Grid.Column>
-                        <Grid.Column>
-                            <Categorias title="Tratamento" list={listSelected} />
-                        </Grid.Column>
-                    </Grid>
+                    <Timeline users={listSelected} selected={selectedAlunos} />
+                    <Alunos data={listSelected} selected={selectedAlunos} setSelected={setSelectedAlunos} />
                 </Grid.Column>
                 <Grid.Column width={3}>
                     <Header content="Alunos" />
-                    <Alunos data={simulationData} selected={selected} setSelected={setSelected} />
+                    <Estacoes data={simulationData} selected={selectedStation} setSelected={setSelectedStation} />
                 </Grid.Column>
             </Grid>
         </Container>

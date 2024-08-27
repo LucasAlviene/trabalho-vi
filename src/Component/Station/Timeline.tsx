@@ -1,11 +1,13 @@
 import Slider from 'rc-slider';
-import './style.css'
+import '../timeline.css'
 import { Button, Icon } from "semantic-ui-react"
 import { cloneElement, useEffect, useState } from 'react';
 import { getColor } from '../../Utils/Color';
+import { useApp } from '../AppContext';
 
 type ItemProps = {
     type: string
+    uuid: string
     time: number;
     max: number;
     user: number;
@@ -23,11 +25,19 @@ const getTop = (type: string) => {
     return "50%"
 }
 
-const Item = ({ time, max, user, type, tooltip, offset }: ItemProps) => {
+const Item = ({ time, max, user, type, tooltip, offset, uuid }: ItemProps) => {
+    const { setItemHighlight, timelineHighlight } = useApp();
     // console.log(time, max);
+    const handleMouseEnter = () => {
+        setItemHighlight((old) => [...old, uuid]);
+    }
+    const handleMouseLeave = () => {
+        setItemHighlight((old) => old.filter((item) => item !== uuid));
+    }
+
     return (
-        <div className="item" style={{ left: ((time - offset) / max * 100).toFixed(2) + "%", borderColor: getColor(user), top: getTop(type) }}>
-            <div className="content" data-tooltip={tooltip}>
+        <div className="item" style={{ left: ((time - offset) / max * 100).toFixed(2) + "%", borderColor: getColor(user), top: getTop(type), opacity: timelineHighlight.length == 0 || timelineHighlight.includes(uuid) ? 1 : 0.2 }}>
+            <div className="content" data-tooltip={tooltip} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <Icon name="play circle" />
             </div>
             <time>{convertTime(time)}</time>
@@ -62,23 +72,23 @@ const Timeline = ({ list }: { list: Station[] }) => {
 
     useEffect(() => {
         if (play) {
-            setTime(0);
+            const diff = max - zoom * max;
+            if (time == diff) setTime(0);
             const interval = setInterval(() => {
                 setTime((time) => {
-                    if (time + 1 >= max - zoom * max) {
+                    if (time + 1 >= diff) {
                         setPlay(false);
                         return time;
                     }
                     return time + 1;
                 });
-            }, 1000 / (zoom * 10));
+            }, 1000 / (zoom * 30));
             return () => clearInterval(interval);
         }
     }, [play]);
 
     const maxTimeline = Math.min(max, max * zoom);
-    const diff = max - zoom * max;
-    console.log(diff)
+    const diff = Math.max(1, max - zoom * max);
     return (
         <>
             <div style={{ width: "100%", height: 400 }}>
@@ -88,7 +98,7 @@ const Timeline = ({ list }: { list: Station[] }) => {
                             <>
                                 {station.rating.map((rating) => (
                                     <>
-                                        {rating.checks.map((check) => <Item tooltip={check.name} type={rating.name} offset={time} time={check.time - station.start} max={maxTimeline} user={user} />)}
+                                        {rating.checks.map((check) => <Item uuid={check.uuid} tooltip={check.name} type={rating.name} offset={time} time={check.time - station.start} max={maxTimeline} user={user} />)}
                                     </>
                                 ))}
                             </>
@@ -97,25 +107,25 @@ const Timeline = ({ list }: { list: Station[] }) => {
                     </div>
                 </div>
             </div>
-            <div style={{ marginTop: "1em", marginLeft: "1em", marginBottom: "2em" }}>
+            <div style={{ marginTop: "1.3em", marginLeft: "1em", marginBottom: "2em" }}>
                 <Slider
                     onChange={(nextValues) => {
                         setTime(nextValues as number);
                     }}
-                    value={time}
-                    activeHandleRender={(children, props) => cloneElement(children, {}, <div className='current'>{convertTime(props.value / diff * max)}</div>)}
+                    value={diff == 1 ? 1 : time}
+                    activeHandleRender={(children, props) => cloneElement(children, {}, <div className='current'>{convertTime(diff == 1 ? max : props.value / diff * max)}</div>)}
                     min={0}
-                    max={max - zoom * max}
+                    max={diff}
                     marks={{
                         0: convertTime(0),
-                        [max - zoom * max]: convertTime(max),
+                        [diff]: convertTime(max),
                     }}
                 />
             </div>
-            <Button icon="plus" onClick={() => setZoom(Math.min(1, zoom - 0.1))} />
-            <Button icon="minus" onClick={() => setZoom(Math.max(0.1, zoom + 0.1))} />
+            <Button disabled={zoom <= 0.1} icon="plus" onClick={() => setZoom(Math.max(0.1, zoom - 0.1))} />
+            <Button disabled={zoom >= 1} icon="minus" onClick={() => setZoom(Math.max(0.1, zoom + 0.1))} />
             <span>{Math.round(zoom * -10 + 11)}x</span>
-            <Button icon={play ? "pause" : "play"} onClick={() => setPlay(!play)} />
+            <Button disabled={diff == 1} icon={play ? "pause" : "play"} onClick={() => setPlay(!play)} />
         </>
     )
 }

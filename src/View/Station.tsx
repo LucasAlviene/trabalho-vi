@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Container, Grid, Header } from 'semantic-ui-react'
-import Alunos from '../Component/Alunos'
-import Categorias from '../Component/Categorias'
-import Timeline from '../Component/Timeline';
+import Alunos from '../Component/Station/Alunos'
+import Categorias from '../Component/Station/Categorias'
+import Timeline from '../Component/Station/Timeline';
 import simulationData from '../simulation.json'
 
 function Station({ id }: { id: string }) {
@@ -13,12 +13,13 @@ function Station({ id }: { id: string }) {
         listSelected[user] = simulationData[user].stations[parseInt(id)];
     });
 
+
     return (
         <Container fluid style={{ marginTop: "3em", padding: "2em" }}>
 
             <Grid>
                 <Grid.Column width={13}>
-                    <Header as="h2" content={`Estação ${id}`} />
+                    <Header as="h2" content={`Estação ${id + 1}`} />
                     <Timeline list={listSelected} />
 
                     <Header content="Resultado" />

@@ -4,8 +4,11 @@ import App from './App.tsx'
 import './index.css'
 import 'semantic-ui-css/semantic.min.css'
 import 'rc-slider/assets/index.css';
+import { AppContextProvider } from './Component/AppContext.tsx'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <AppContextProvider>
+      <App />
+    </AppContextProvider>
   </React.StrictMode>,
 )

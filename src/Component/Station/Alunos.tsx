@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import { Card, Image, Label } from "semantic-ui-react";
-import { getColor } from "../Utils/Color";
+import { getColor } from "../../Utils/Color";
 
 const listAlunos = [
     {
@@ -31,6 +31,20 @@ type AlunoProps = {
     onClick: () => void
 }
 const Aluno: React.FC<AlunoProps> = ({ id, name, onClick, active }) => {
+/*
+    if (!item) return;
+
+    const status = useMemo(() => {
+        const result = item.rating.map((item: any) => item.checks).map((checks: any) => {
+            const total = checks.reduce((acc: number, item: any) => acc + item.value, 0);
+            const correct = checks.reduce((acc: number, item: any) => acc + (item.value > 0 ? 1 : 0), 0);
+            return correct == 0 ? 0 : total / correct ;
+            //return checks.map((item: any) => item.value > 0)
+        })
+        if(active) console.log(result)
+        return false;
+    }, [item,active])
+*/
 
     return (
         <Card onClick={onClick} style={{ backgroundColor: active ? getColor(id) : "" }}>
@@ -41,7 +55,7 @@ const Aluno: React.FC<AlunoProps> = ({ id, name, onClick, active }) => {
                     src={"https://i.pravatar.cc/300?img=" + id}
                 />
                 <Card.Header>{name}</Card.Header>
-                <Card.Meta><Label color={false ? "green" : "red"} content={false ? "Aprovado" : "Reprovado"} /></Card.Meta>
+                {/*<Card.Meta><Label color={false ? "green" : "red"} content={false ? "Aprovado" : "Reprovado"} /></Card.Meta>*/}
             </Card.Content>
         </Card>
     )
