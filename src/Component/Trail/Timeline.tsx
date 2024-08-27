@@ -50,7 +50,7 @@ const Item = ({ time, max, user, active, type, tooltip, offset, uuid }: ItemProp
     }
 
     //if(((time - offset) / max * 100) < 100) return null;
-    if(user != 10) return null;
+
     return (
         <div className="item" data-value={((time - offset) / max * 100).toFixed(2)} style={{ left: "calc(" + ((time - offset) / max * 100).toFixed(2) + "% ) ", borderColor: getColor(user), top: user * 10 + 50, opacity: active ? 1 : 0.05 }}>
             <div className="content" data-tooltip={tooltip} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>

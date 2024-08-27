@@ -71,7 +71,7 @@ function Station({ id, go }: { id: string, go: (hash: string) => void }) {
                 </Grid.Column>
                 <Grid.Column width={3}>
                     <Header content="Alunos" />
-                    <Alunos data={simulationData} selected={selected} setSelected={setSelected} />
+                    <Alunos data={simulationData} station={id} selected={selected} setSelected={setSelected} />
                     <br />
                     <br />
                     <Doughnut id='aprovados' data={dataChart} />
