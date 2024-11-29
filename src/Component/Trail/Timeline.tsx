@@ -127,7 +127,7 @@ const Timeline = ({ users, selected }: { users: Simulation[], selected: any }) =
                                     </>
                                 )
                                 )}
-                                <Item active={selected.includes(user)} uuid={String(user)} tooltip={"Final da Trilha" + user} type="stop" offset={time} time={trail.simulation.end - trail.simulation.start} max={maxTimeline} user={user} />
+                                <Item active={selected.includes(user)} uuid={String(user)} tooltip={"Final da Trilha"} type="stop" offset={time} time={trail.simulation.end - trail.simulation.start} max={maxTimeline} user={user} />
                             </>
                         ))}
                     </div>
